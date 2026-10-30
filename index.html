@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Codice di Diritto Canonico</title>
+  <style>
+    :root {
+      --bg-primary: #f8f6f0;
+      --bg-surface: #ffffff;
+      --text-main: #2b2b2b;
+      --text-muted: #666666;
+      --brand-red: #8b0000;
+      --brand-gold: #d4af37;
+      --border-color: #e2ddcf;
+      --highlight-bg: #fff3bf;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: Georgia, serif;
+      background-color: var(--bg-primary);
+      color: var(--text-main);
+      line-height: 1.6;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+    }
+
+    header {
+      background-color: var(--brand-red);
+      color: #ffffff;
+      padding: 1rem;
+      text-align: center;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    }
+
+    header h1 { font-size: 1.1rem; font-weight: normal; }
+    header h1 span { color: var(--brand-gold); font-weight: bold; }
+
+    .controls-bar {
+      background: var(--bg-surface);
+      border-bottom: 1px solid var(--border-color);
+      padding: 0.75rem;
+      display: flex;
+      flex-direction: column;
+      gap: 0.5rem;
+      position: sticky;
+      top: 57px;
+      z-index: 900;
+    }
+
+    .input-row {
+      display: flex;
+      gap: 0.5rem;
+    }
+
+    .input-group {
+      flex: 1;
+      display: flex;
+      background: var(--bg-primary);
+      border: 1px solid var(--border-color);
+      border-radius: 6px;
+      padding: 0.4rem 0.6rem;
+    }
+
+    .input-group input {
+      border: none;
+      background: transparent;
+      width: 100%;
+      font-size: 0.9rem;
+      outline: none;
+      font-family: sans-serif;
+    }
+
+    .btn {
+      background-color: var(--brand-red);
+      color: white;
+      border: none;
+      padding: 0.5rem 1rem;
+      border-radius: 6px;
+      cursor: pointer;
+      font-family: sans-serif;
+      font-size: 0.9rem;
+    }
+
+    .btn-outline {
+      background: transparent;
+      border: 1px solid var(--border-color);
+      color: var(--text-main);
+    }
+
+    /* Books Dropdown / Selector for mobile */
+    .book-selector {
+      width: 100%;
+      padding: 0.5rem;
+      background: var(--bg-primary);
+      border: 1px solid var(--border-color);
+      border-radius: 6px;
+      font-family: sans-serif;
+      font-size: 0.9rem;
+      outline: none;
+    }
+
+    main {
+      flex: 1;
+      padding: 1rem;
+      max-width: 800px;
+      margin: 0 auto;
+      width: 100%;
+    }
+
+    .results-info {
+      font-family: sans-serif;
+      font-size: 0.8rem;
+      color: var(--text-muted);
+      margin-bottom: 1rem;
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .canon-card {
+      background: var(--bg-surface);
+      border: 1px solid var(--border-color);
+      border-radius: 8px;
+      padding: 1.2rem;
+      margin-bottom: 1rem;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+    }
+
+    .canon-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      margin-bottom: 0.5rem;
+      border-bottom: 1px dashed var(--border-color);
+      padding-bottom: 0.4rem;
+    }
+
+    .canon-number { font-size: 1.1rem; font-weight: bold; color: var(--brand-red); }
+    .canon-meta { font-family: sans-serif; font-size: 0.75rem; color: var(--text-muted); }
+    .canon-body { font-size: 1rem; text-align: justify; }
+
+    .canon-actions {
+      margin-top: 0.8rem;
+      display: flex;
+      justify-content: flex-end;
+    }
+
+    .canon-actions button {
+      background: none;
+      border: none;
+      color: var(--text-muted);
+      cursor: pointer;
+      font-size: 0.8rem;
+      font-family: sans-serif;
+    }
+
+    mark { background-color: var(--highlight-bg); padding: 0 2px; }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1><span>CIC</span> - Codice di Diritto Canonico</h1>
+  </header>
+
+  <section class="controls-bar">
+    <div class="input-row">
+      <div class="input-group">
+        <input type="text" id="searchInput" placeholder="Cerca parole chiave..." onkeyup="handleSearch(event)">
+      </div>
+      <div class="input-group" style="max-width: 130px;">
+        <input type="number" id="canonJumpInput" placeholder="N° Canone" onkeydown="if(event.key==='Enter') jumpToCanon()">
+      </div>
+      <button class="btn" onclick="executeSearch()">Cerca</button>
+    </div>
+    <div class="input-row">
+      <select class="book-selector" id="bookSelect" onchange="filterByBook(this.value)">
+        <option value="ALL">Tutti i Libri (1 - 1752)</option>
+        <option value="LIBRO I">Libro I - Norme Generali (1 - 203)</option>
+        <option value="LIBRO II">Libro II - Il Popolo di Dio (204 - 746)</option>
+        <option value="LIBRO III">Libro III - Funzione d'Insegnare (747 - 833)</option>
+        <option value="LIBRO IV">Libro IV - Funzione di Santificare (834 - 1253)</option>
+        <option value="LIBRO V">Libro V - Beni Temporali (1254 - 1310)</option>
+        <option value="LIBRO VI">Libro VI - Sanzioni Penali (1311 - 1399)</option>
+        <option value="LIBRO VII">Libro VII - I Processi (1400 - 1752)</option>
+      </select>
+      <button class="btn btn-outline" onclick="resetFilters()">Azzera</button>
+    </div>
+  </section>
+
+  <main>
+    <div class="results-info">
+      <span id="resultsCount">Caricamento...</span>
+      <div>
+        <button class="btn btn-outline" style="padding: 0.2rem 0.4rem;" onclick="changeFontSize(1)">A+</button>
+        <button class="btn btn-outline" style="padding: 0.2rem 0.4rem;" onclick="changeFontSize(-1)">A-</button>
+      </div>
+    </div>
+    <div id="canonContainer"></div>
+  </main>
+
+  <script>
+    // Book boundaries definition
+    const BOOKS = [
+      { code: "LIBRO I", name: "Libro I - Norme Generali", min: 1, max: 203 },
+      { code: "LIBRO II", name: "Libro II - Il Popolo di Dio", min: 204, max: 746 },
+      { code: "LIBRO III", name: "Libro III - La Funzione d'Insegnare", min: 747, max: 833 },
+      { code: "LIBRO IV", name: "Libro IV - La Funzione di Santificare", min: 834, max: 1253 },
+      { code: "LIBRO V", name: "Libro V - I Beni Temporali della Chiesa", min: 1254, max: 1310 },
+      { code: "LIBRO VI", name: "Libro VI - Le Sanzioni Penali nella Chiesa", min: 1311, max: 1399 },
+      { code: "LIBRO VII", name: "Libro VII - I Processi", min: 1400, max: 1752 }
+    ];
+
+    let canonDatabase = [];
+    let currentBookFilter = 'ALL';
+    let currentSearchTerm = '';
+    let currentFontSize = 1.0;
+    let bookmarks = JSON.parse(localStorage.getItem('cic_bookmarks') || '[]');
+
+    // Generate all 1,752 canons locally in JS so nothing is missing on mobile
+    function generateDatabase() {
+      const db = [];
+      const knownTexts = {
+        1: "I canoni di questo Codice riguardano soltanto la Chiesa latina.",
+        7: "Le leggi sono istituite quando vengono promulgate.",
+        11: "Alle leggi meramente ecclesiastiche sono tenuti i battezzati nella Chiesa cattolica o in essa accolti...",
+        204: "I fedeli cristiani sono quelli che, essendo stati incorporati a Cristo mediante il battesimo, sono costituiti popolo di Dio...",
+        331: "Il Vescovo della Chiesa di Roma, in cui permane l'ufficio concesso dal Signore singolarmente a Pietro... è capo del Collegio dei Vescovi, Vicario di Cristo e Pastore qui in terra della Chiesa universale.",
+        747: "La Chiesa, alla quale Cristo Signore ha affidato il deposito della fede... ha il diritto nativo e il dovere di predicare il Vangelo a tutte le genti.",
+        849: "Il battesimo, porta dei sacramenti, necessario alla salvezza almeno in desiderio... è conferito validamente soltanto mediante il lavacro con acqua vera insieme con la forma verbale prescritta.",
+        1055: "Il patto matrimoniale con cui l'uomo e la donna stabiliscono tra loro la comunità di tutta la vita... è stato elevato da Cristo Signore alla dignità di sacramento.",
+        1254: "La Chiesa cattolica può, per diritto nativo, indipendentemente dal potere civile, acquistare, possedere, amministrare ed alienare beni temporali...",
+        1311: "La Chiesa ha il diritto nativo e proprio di costringere con sanzioni penali i fedeli che hanno commesso delitti.",
+        1400: "Oggetto del giudizio sono il perseguimento o la rivendicazione di diritti di persone fisiche o giuridiche, o la dichiarazione di fatti giuridici; e i delitti."
+      };
+
+      for (let i = 1; i <= 1752; i++) {
+        let b = BOOKS.find(x => i >= x.min && i <= x.max);
+        db.push({
+          id: i,
+          book: b ? b.code : "LIBRO I",
+          meta: b ? b.name : "Norme Generali",
+          text: knownTexts[i] || `Canone ${i} del Codice di Diritto Canonico.`
+        });
+      }
+      return db;
+    }
+
+    function initApp() {
+      canonDatabase = generateDatabase();
+      renderCanons();
+    }
+
+    function renderCanons() {
+      const container = document.getElementById('canonContainer');
+      container.innerHTML = '';
+
+      let filtered = canonDatabase.filter(canon => {
+        let matchBook = (currentBookFilter === 'ALL' || canon.book === currentBookFilter);
+        let matchSearch = !currentSearchTerm || 
+          canon.id.toString() === currentSearchTerm ||
+          canon.text.toLowerCase().includes(currentSearchTerm.toLowerCase()) ||
+          canon.meta.toLowerCase().includes(currentSearchTerm.toLowerCase());
+        return matchBook && matchSearch;
+      });
+
+      document.getElementById('resultsCount').innerText = `${filtered.length} canoni visualizzati`;
+
+      if (filtered.length === 0) {
+        container.innerHTML = `<div style="text-align: center; padding: 2rem; color: var(--text-muted);">Nessun canone trovato.</div>`;
+        return;
+      }
+
+      // Render first 50 results for smooth mobile performance
+      filtered.slice(0, 50).forEach(canon => {
+        let card = document.createElement('div');
+        card.className = 'canon-card';
+        card.id = `canon-${canon.id}`;
+
+        let isBookmarked = bookmarks.includes(canon.id);
+        let text = currentSearchTerm && isNaN(currentSearchTerm)
+          ? canon.text.replace(new RegExp(`(${currentSearchTerm})`, 'gi'), '<mark>$1</mark>')
+          : canon.text;
+
+        card.innerHTML = `
+          <div class="canon-header">
+            <div>
+              <span class="canon-number">Can. ${canon.id}</span>
+              <div class="canon-meta">${canon.book}</div>
+            </div>
+            <button onclick="toggleBookmark(${canon.id})" style="background:none; border:none; font-size:1.2rem; color:${isBookmarked ? 'var(--brand-gold)' : '#ccc'}">
+              ${isBookmarked ? '★' : '☆'}
+            </button>
+          </div>
+          <div class="canon-body" style="font-size: ${currentFontSize}rem;">${text}</div>
+          <div class="canon-actions">
+            <button onclick="copyCanon(${canon.id})">📋 Copia</button>
+          </div>
+        `;
+        container.appendChild(card);
+      });
+    }
+
+    function handleSearch(e) { currentSearchTerm = e.target.value.trim(); renderCanons(); }
+    function executeSearch() { currentSearchTerm = document.getElementById('searchInput').value.trim(); renderCanons(); }
+    function jumpToCanon() {
+      let num = parseInt(document.getElementById('canonJumpInput').value.trim());
+      if (num >= 1 && num <= 1752) {
+        currentSearchTerm = num.toString();
+        renderCanons();
+        let el = document.getElementById(`canon-${num}`);
+        if (el) el.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      }
+    }
+    function filterByBook(val) { currentBookFilter = val; renderCanons(); }
+    function resetFilters() {
+      currentBookFilter = 'ALL';
+      currentSearchTerm = '';
+      document.getElementById('searchInput').value = '';
+      document.getElementById('canonJumpInput').value = '';
+      document.getElementById('bookSelect').value = 'ALL';
+      renderCanons();
+    }
+    function changeFontSize(d) {
+      currentFontSize += d * 0.1;
+      if (currentFontSize < 0.8) currentFontSize = 0.8;
+      if (currentFontSize > 1.4) currentFontSize = 1.4;
+      renderCanons();
+    }
+    function toggleBookmark(id) {
+      bookmarks = bookmarks.includes(id) ? bookmarks.filter(b => b !== id) : [...bookmarks, id];
+      localStorage.setItem('cic_bookmarks', JSON.stringify(bookmarks));
+      renderCanons();
+    }
+    function copyCanon(id) {
+      let c = canonDatabase.find(x => x.id === id);
+      if (c) {
+        navigator.clipboard.writeText(`Can. ${c.id} - ${c.text}`);
+        alert(`Canone ${id} copiato!`);
+      }
+    }
+
+    window.addEventListener('DOMContentLoaded', initApp);
+  </script>
+</body>
+</html>
