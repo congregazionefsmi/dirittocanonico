@@ -119,17 +119,21 @@ function selectBook(bookKey, el) {
   if (el) {
     document.querySelectorAll('.book-item').forEach(item => item.classList.remove('active'));
     el.classList.add('active');
+  } else {
+    // Highlight sidebar item matching the bookKey programmatically
+    document.querySelectorAll('.book-item').forEach((item, idx) => {
+      let keys = ['LIBRO1', 'LIBRO2', 'LIBRO3', 'LIBRO4', 'LIBRO5', 'LIBRO6', 'LIBRO7'];
+      if (keys[idx] === bookKey) item.classList.add('active');
+      else item.classList.remove('active');
+    });
   }
   renderCanons();
 }
 
 function highlightText(text, term) {
   if (!term) return escapeHTML(text);
-  
-  // Escape special regex chars
   const escapedTerm = term.replace(/[-\/\\^$*+?.()|[\]{}]/g, '\\$&');
   const regex = new RegExp(`(${escapedTerm})`, 'gi');
-  
   return escapeHTML(text).replace(regex, '<mark style="background-color: #fff3cd; color: #856404; padding: 0.1rem 0.2rem; border-radius: 3px; border: 1px solid #ffeeba; font-weight: bold;">$1</mark>');
 }
 
@@ -179,7 +183,7 @@ function renderCanons() {
     card.id = `canon-${canon.id}`;
 
     let isBookmarked = bookmarks.includes(canon.id);
-    let formattedBody = highlightText(canon.text, currentSearchTerm);
+    let formattedBody = highlightText(canon.text, isSearching && isNaN(currentSearchTerm) ? currentSearchTerm : '');
 
     card.innerHTML = `
       <div class="canon-header">
@@ -201,6 +205,48 @@ function renderCanons() {
     `;
     container.appendChild(card);
   });
+}
+
+function jumpToCanon() {
+  const inputVal = document.getElementById('canonJumpInput').value.trim();
+  const num = parseInt(inputVal, 10);
+  
+  if (!num || num < 1 || num > 1752) {
+    alert("Inserisci un numero valido tra 1 e 1752.");
+    return;
+  }
+
+  // Find which book contains this canon
+  let targetKey = Object.keys(BOOKS_CONFIG).find(key => {
+    let b = BOOKS_CONFIG[key];
+    return num >= b.min && num <= b.max;
+  });
+
+  if (targetKey) {
+    // Switch book without clearing search prematurely, then select book
+    currentBookKey = targetKey;
+    showingBookmarksOnly = false;
+    currentSearchTerm = '';
+    document.getElementById('searchInput').value = '';
+    document.getElementById('canonJumpInput').value = '';
+    
+    selectBook(targetKey, null);
+
+    // Smooth scroll and pulse highlight the target card
+    setTimeout(() => {
+      let el = document.getElementById(`canon-${num}`);
+      if (el) {
+        el.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        el.style.transition = 'box-shadow 0.3s ease, border-color 0.3s ease';
+        el.style.borderColor = 'var(--brand-gold)';
+        el.style.boxShadow = '0 0 15px rgba(212, 175, 55, 0.4)';
+        setTimeout(() => {
+          el.style.borderColor = 'var(--border-color)';
+          el.style.boxShadow = '0 1px 3px rgba(0,0,0,0.05)';
+        }, 2000);
+      }
+    }, 100);
+  }
 }
 
 function editCanon(id) {
@@ -227,31 +273,6 @@ function handleSearch(e) {
 function executeSearch() {
   currentSearchTerm = document.getElementById('searchInput').value.trim().toLowerCase();
   renderCanons();
-}
-
-function jumpToCanon() {
-  const num = parseInt(document.getElementById('canonJumpInput').value.trim());
-  if (!num || num < 1 || num > 1752) {
-    alert("Inserisci un numero valido tra 1 e 1752.");
-    return;
-  }
-
-  let targetKey = Object.keys(BOOKS_CONFIG).find(key => {
-    let b = BOOKS_CONFIG[key];
-    return num >= b.min && num <= b.max;
-  });
-
-  if (targetKey) {
-    let bookItem = [...document.querySelectorAll('.book-item')].find(el => el.innerText.includes(BOOKS_CONFIG[targetKey].name.split(' - ')[0]));
-    currentSearchTerm = '';
-    document.getElementById('searchInput').value = '';
-    selectBook(targetKey, bookItem);
-    
-    setTimeout(() => {
-      let el = document.getElementById(`canon-${num}`);
-      if (el) el.scrollIntoView({ behavior: 'smooth', block: 'center' });
-    }, 150);
-  }
 }
 
 function resetFilters() {
