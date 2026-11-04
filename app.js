@@ -58,11 +58,9 @@ function parseTextFile(rawText) {
       if (matchNum) {
         let id = parseInt(matchNum[1], 10);
         
-        // Only process valid canon range 1-1752 and prevent duplicates
         if (id >= 1 && id <= 1752 && !canonsMap.has(id)) {
           let content = trimmed.replace(/^Can\.\s*\d+\s*/i, '').trim();
           
-          // Format section markers (§ 1, § 2) and numeric lists (1), 2), etc.) with spacing
           content = content
             .replace(/(\s*§\s*\d+)/g, '\n\n  $1')
             .replace(/(\s*\d+\))\s*/g, '\n\n    $1 ');
@@ -90,7 +88,7 @@ function parseTextFile(rawText) {
         finalArray.push({
           id: num,
           bookName: bName,
-          text: customTexts[num] || `Canone ${num} (${bName}).\n[Testo non presente nel file di testo caricato. Clicca "Modifica" per inserirlo].`
+          text: customTexts[num] || `Canone ${num} (${bName}).\n[Testo non presente nel file caricato. Clicca "Modifica" per inserirlo].`
         });
       }
     }
@@ -115,11 +113,30 @@ function getBookNameForCanon(num) {
 function selectBook(bookKey, el) {
   currentBookKey = bookKey;
   showingBookmarksOnly = false;
+  currentSearchTerm = '';
+  document.getElementById('searchInput').value = '';
+  
   if (el) {
     document.querySelectorAll('.book-item').forEach(item => item.classList.remove('active'));
     el.classList.add('active');
   }
   renderCanons();
+}
+
+function highlightText(text, term) {
+  if (!term) return escapeHTML(text);
+  
+  // Escape special regex chars
+  const escapedTerm = term.replace(/[-\/\\^$*+?.()|[\]{}]/g, '\\$&');
+  const regex = new RegExp(`(${escapedTerm})`, 'gi');
+  
+  return escapeHTML(text).replace(regex, '<mark style="background-color: #fff3cd; color: #856404; padding: 0.1rem 0.2rem; border-radius: 3px; border: 1px solid #ffeeba; font-weight: bold;">$1</mark>');
+}
+
+function escapeHTML(str) {
+  return str.replace(/[&<>'"]/g, 
+    tag => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', "'": '&#39;', '"': '&quot;' }[tag] || tag)
+  );
 }
 
 function renderCanons() {
@@ -128,20 +145,28 @@ function renderCanons() {
   container.innerHTML = '';
   
   const bookData = BOOKS_CONFIG[currentBookKey];
+  const isSearching = currentSearchTerm.length > 0;
 
   let filtered = masterDatabase.filter(canon => {
-    const inBook = showingBookmarksOnly || (canon.id >= bookData.min && canon.id <= bookData.max);
-    const matchesSearch = !currentSearchTerm || 
+    const inBook = isSearching || showingBookmarksOnly || (canon.id >= bookData.min && canon.id <= bookData.max);
+    
+    const matchesSearch = !isSearching || 
       canon.id.toString() === currentSearchTerm ||
-      canon.text.toLowerCase().includes(currentSearchTerm.toLowerCase());
+      canon.text.toLowerCase().includes(currentSearchTerm);
+      
     const matchesBookmark = !showingBookmarksOnly || bookmarks.includes(canon.id);
     
-    return showingBookmarksOnly ? matchesBookmark : (inBook && matchesSearch);
+    if (showingBookmarksOnly) return matchesBookmark && matchesSearch;
+    return inBook && matchesSearch;
   });
 
-  document.getElementById('resultsCount').innerText = showingBookmarksOnly 
-    ? `Segnalibri salvati (${filtered.length})` 
-    : `${bookData.name} (${filtered.length} canoni visualizzati)`;
+  if (isSearching) {
+    document.getElementById('resultsCount').innerText = `Risultati ricerca per "${currentSearchTerm}": ${filtered.length} canoni trovati in totale`;
+  } else if (showingBookmarksOnly) {
+    document.getElementById('resultsCount').innerText = `Segnalibri salvati (${filtered.length})`;
+  } else {
+    document.getElementById('resultsCount').innerText = `${bookData.name} (${filtered.length} canoni visualizzati)`;
+  }
 
   if (filtered.length === 0) {
     container.innerHTML = `<div class="loader-box">Nessun canone trovato corrispondente ai criteri.</div>`;
@@ -154,6 +179,7 @@ function renderCanons() {
     card.id = `canon-${canon.id}`;
 
     let isBookmarked = bookmarks.includes(canon.id);
+    let formattedBody = highlightText(canon.text, currentSearchTerm);
 
     card.innerHTML = `
       <div class="canon-header">
@@ -166,7 +192,7 @@ function renderCanons() {
         </button>
       </div>
       <div class="canon-body" style="font-size: ${currentFontSize}rem;">
-        ${canon.text}
+        ${formattedBody}
       </div>
       <div class="canon-actions">
         <button onclick="editCanon(${canon.id})">✏️ Modifica</button>
@@ -217,9 +243,10 @@ function jumpToCanon() {
 
   if (targetKey) {
     let bookItem = [...document.querySelectorAll('.book-item')].find(el => el.innerText.includes(BOOKS_CONFIG[targetKey].name.split(' - ')[0]));
+    currentSearchTerm = '';
+    document.getElementById('searchInput').value = '';
     selectBook(targetKey, bookItem);
-    currentSearchTerm = num.toString();
-    renderCanons();
+    
     setTimeout(() => {
       let el = document.getElementById(`canon-${num}`);
       if (el) el.scrollIntoView({ behavior: 'smooth', block: 'center' });
