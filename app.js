@@ -120,7 +120,6 @@ function selectBook(bookKey, el) {
     document.querySelectorAll('.book-item').forEach(item => item.classList.remove('active'));
     el.classList.add('active');
   } else {
-    // Highlight sidebar item matching the bookKey programmatically
     document.querySelectorAll('.book-item').forEach((item, idx) => {
       let keys = ['LIBRO1', 'LIBRO2', 'LIBRO3', 'LIBRO4', 'LIBRO5', 'LIBRO6', 'LIBRO7'];
       if (keys[idx] === bookKey) item.classList.add('active');
@@ -216,14 +215,12 @@ function jumpToCanon() {
     return;
   }
 
-  // Find which book contains this canon
   let targetKey = Object.keys(BOOKS_CONFIG).find(key => {
     let b = BOOKS_CONFIG[key];
     return num >= b.min && num <= b.max;
   });
 
   if (targetKey) {
-    // Switch book without clearing search prematurely, then select book
     currentBookKey = targetKey;
     showingBookmarksOnly = false;
     currentSearchTerm = '';
@@ -232,11 +229,10 @@ function jumpToCanon() {
     
     selectBook(targetKey, null);
 
-    // Smooth scroll and pulse highlight the target card
     setTimeout(() => {
       let el = document.getElementById(`canon-${num}`);
       if (el) {
-        el.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        el.scrollIntoView({ behavior: 'smooth', block: 'start' });
         el.style.transition = 'box-shadow 0.3s ease, border-color 0.3s ease';
         el.style.borderColor = 'var(--brand-gold)';
         el.style.boxShadow = '0 0 15px rgba(212, 175, 55, 0.4)';
