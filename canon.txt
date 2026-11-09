@@ -26,7 +26,11 @@ Can. 5
 --------------------------------------------------
 
 Can. 6
-§1. Entrando in vigore questo Codice, sono abrogati: 1) il Codice di Diritto Canonico promulgato nell'anno 1917; 2) anche le altre leggi, sia universali sia particolari, contrarie alle disposizioni di questo Codice, a meno che non sia disposto espressamente altro circa quelle particolari; 3) qualsiasi legge penale, sia universale sia particolare emanata dalla Sede Apostolica, a meno che non sia ripresa in questo stesso Codice; 4) così pure tutte le altre leggi disciplinari universali riguardanti materia che viene ordinata integralmente da questo Codice.
+§1. Entrando in vigore questo Codice, sono abrogati: 
+1) il Codice di Diritto Canonico promulgato nell'anno 1917; 
+2) anche le altre leggi, sia universali sia particolari, contrarie alle disposizioni di questo Codice, a meno che non sia disposto espressamente altro circa quelle particolari; 
+3) qualsiasi legge penale, sia universale sia particolare emanata dalla Sede Apostolica, a meno che non sia ripresa in questo stesso Codice; 
+4) così pure tutte le altre leggi disciplinari universali riguardanti materia che viene ordinata integralmente da questo Codice.
 
    §2. I canoni di questo Codice, nella misura in cui riportano il diritto antico, sono da valutarsi tenuto conto anche della tradizione canonica.
 
@@ -64,7 +68,7 @@ Can. 12
 
    §2. Dalle leggi universali invece, che non sono in vigore in un determinato territorio, sono esenti tutti quelli che si trovano attualmente in tale territorio.
 
-   §3. Alle leggi fatte per un territorio peculiare sono sottoposti coloro per i quali sono state date e che in esso hanno il domicilio o il quasi-domicilio e insieme attualmente vi dimorano, fermo restando il disposto del
+   §3. Alle leggi fatte per un territorio peculiare sono sottoposti coloro per i quali sono state date e che in esso hanno il domicilio o il quasi-domicilio e insieme attualmente vi dimorano, fermo restando il disposto del can. 13.
 
 --------------------------------------------------
 
@@ -156,7 +160,7 @@ La consuetudine è ottima interprete delle leggi.
 --------------------------------------------------
 
 Can. 28
-Fermo restando il disposto del
+Fermo restando il disposto del can. 5, la consuetudine, sia contro sia al di fuori della legge, è revocata per mezzo di una consuetudine o di una legge contraria; ma, se non se ne fa espressa menzione, la legge non revoca le consuetudini centenarie o immemorabili, né la legge universale revoca le consuetudini particolari. 
 
 --------------------------------------------------
 
@@ -166,16 +170,13 @@ I decreti generali, con i quali dal legislatore competente vengono date disposiz
 --------------------------------------------------
 
 Can. 30
-Chi gode soltanto della potestà esecutiva non può validamente emanare il decreto generale, di cui al
+Chi gode soltanto della potestà esecutiva non può validamente emanare il decreto generale, di cui al can. 29, a meno che in casi particolari a norma del diritto ciò non gli sia stato espressamente concesso dal legislatore competente, e adempiute le condizioni stabilite nell'atto della concessione.
 
 --------------------------------------------------
 
 Can. 31
 §1. Possono dare i decreti generali esecutivi, con cui sono appunto determinati più precisamente i modi da osservarsi nell'applicare la legge o con cui si urge l'osservanza delle leggi, coloro che godono della potestà esecutiva, entro i limiti della loro competenza.
-
-   §2. Per ciò che attiene alla promulgazione e alla vacanza dei decreti di cui al
-
-   §1, si osservino le disposizioni del
+§2. Per ciò che attiene alla promulgazione e alla vacanza dei decreti di cui al §1, si osservino le disposizioni del can. 8.
 
 --------------------------------------------------
 
@@ -201,7 +202,7 @@ Can. 34
 --------------------------------------------------
 
 Can. 35
-L'atto amministrativo singolare, si tratti di un decreto o di un precetto oppure si tratti di un rescritto, può essere prodotto, entro i limiti della sua competenza, da colui che gode di potestà esecutiva, fermo restando il disposto del
+L'atto amministrativo singolare, si tratti di un decreto o di un precetto oppure si tratti di un rescritto, può essere prodotto, entro i limiti della sua competenza, da colui che gode di potestà esecutiva, fermo restando il disposto del can. 76, §1.
 
 --------------------------------------------------
 
@@ -319,7 +320,7 @@ Can. 57
 
    §2. Trascorso questo termine, se il decreto non fu ancora dato, la risposta si presume negativa, per ciò che si riferisce alla proposta di un ulteriore ricorso.
 
-   §3. La presunta risposta negativa non esime la competente autorità dall'obbligo di dare il decreto, e anzi di riparare il danno eventualmente causato, a norma del
+   §3. La presunta risposta negativa non esime la competente autorità dall'obbligo di dare il decreto, e anzi di riparare il danno eventualmente causato, a norma del can. 128.
 
 --------------------------------------------------
 
@@ -367,9 +368,7 @@ Salvo il diritto della Penitenzieria per il foro interno, una grazia negata da q
 --------------------------------------------------
 
 Can. 65
-§1. Salve le disposizioni dei §
-
-  §2 e 3, nessuno richieda a un altro Ordinario una grazia negata dal proprio Ordinario, se non fatta menzione del diniego; fatta però menzione, l'Ordinario non conceda la grazia, senza aver avuto i motivi del diniego dall'Ordinario precedente.
+§1. Salve le disposizioni dei dei §§2 e 3, nessuno richieda a un altro Ordinario una grazia negata dal proprio Ordinario, se non fatta menzione del diniego; fatta però menzione, l'Ordinario non conceda la grazia, senza aver avuto i motivi del diniego dall'Ordinario precedente.
 
    §2. Una grazia negata dal Vicario generale o dal Vicario episcopale, non può essere concessa validamente da un altro Vicario dello stesso Vescovo, anche avuti i motivi del diniego da parte del Vicario che ha negato la grazia.
 
@@ -439,7 +438,7 @@ Can. 76
 --------------------------------------------------
 
 Can. 77
-Il privilegio è da interpretarsi a norma del
+Il privilegio è da interpretarsi a norma del can. 36, §1; ma ci si deve sempre servire di una interpretazione tale, per cui i dotati di privilegio abbiano a conseguire davvero una qualche grazia.
 
 --------------------------------------------------
 
@@ -453,7 +452,9 @@ Can. 78
 --------------------------------------------------
 
 Can. 79
-Il privilegio cessa per revoca da parte dell'autorità competente a norma del
+Il privilegio cessa per revoca da parte dell'autorità competente a norma del can. 47, fermo restando il disposto del can. 81.
+
+
 
 --------------------------------------------------
 
@@ -477,7 +478,7 @@ Per non uso o per uso contrario un privilegio non oneroso ad altri non cessa; qu
 --------------------------------------------------
 
 Can. 83
-§1. Il privilegio cessa passato il tempo o esaurito il numero dei casi per i quali fu concesso, fermo restando il disposto del
+§1. Il privilegio cessa passato il tempo o esaurito il numero dei casi per i quali fu concesso, fermo restando il disposto del can. 142, §2.
 
 --------------------------------------------------
 
@@ -499,7 +500,7 @@ Non sono suscettibili di dispensa le leggi in quanto definiscono quelle cose, ch
 Can. 87
 §1. Il Vescovo diocesano può dispensare validamente i fedeli, ogniqualvolta egli giudichi che ciò giovi al loro bene spirituale, dalle leggi disciplinari sia universali sia particolari date dalla suprema autorità della Chiesa per il suo territorio o per i suoi sudditi, tuttavia non dalle leggi processuali o penali, né da quelle la cui dispensa è riservata in modo speciale alla Sede Apostolica o ad un'altra autorità.
 
-   §2. Quando sia difficile il ricorso alla Santa Sede e insieme nell'attesa vi sia pericolo di grave danno, qualunque Ordinario può dispensare validamente dalle medesime leggi, anche se la dispensa è riservata alla Santa Sede, purché si tratti di una dispensa che la stessa Santa Sede nelle medesime circostanze solitamente concede, fermo restando il disposto del
+   §2. Quando sia difficile il ricorso alla Santa Sede e insieme nell'attesa vi sia pericolo di grave danno, qualunque Ordinario può dispensare validamente dalle medesime leggi, anche se la dispensa è riservata alla Santa Sede, purché si tratti di una dispensa che la stessa Santa Sede nelle medesime circostanze solitamente concede, fermo restando il disposto del can. 291.
 
 --------------------------------------------------
 
@@ -526,7 +527,7 @@ Chi gode della potestà di dispensare la può esercitare validamente anche stand
 --------------------------------------------------
 
 Can. 92
-È sottoposta a interpretazione stretta non solo la dispensa a norma del
+È sottoposta a interpretazione stretta non solo la dispensa a norma del can. 36, §1, ma la stessa potestà di dispensare concessa per un caso determinato.
 
 --------------------------------------------------
 
@@ -597,7 +598,7 @@ Can. 102
 --------------------------------------------------
 
 Can. 103
-I membri degli istituti religiosi e delle società di vita apostolica acquistano il domicilio nel luogo dove è situata la casa cui sono ascritti; il quasi-domicilio, nella casa in cui, a norma del
+I membri degli istituti religiosi e delle società di vita apostolica acquistano il domicilio nel luogo dove è situata la casa cui sono ascritti; il quasi-domicilio, nella casa in cui, a norma del can. 102, §2, dimorano.
 
 --------------------------------------------------
 
@@ -614,7 +615,8 @@ Can. 105
 --------------------------------------------------
 
 Can. 106
-Il domicilio e il quasi-domicilio si perdono con la partenza dal luogo con intenzione di non tornare, salvo il disposto del
+Il domicilio e il quasi-domicilio si perdono con la partenza dal luogo con intenzione di non tornare, salvo il disposto del can. 105.
+
 
 --------------------------------------------------
 
@@ -657,6 +659,9 @@ Can. 111n -
 
    §3 Qualsiasi battezzando che abbia compiuto quattordici anni di età, può liberamente scegliere di essere battezzato nella Chiesa latina o in un'altra Chiesa sui iuris; nel qual caso, egli appartiene a quella Chiesa che avrà scelto.
 
+(n: Indica che il testo corrisponde alla nuova versione)
+
+
 --------------------------------------------------
 
 Can. 112
@@ -665,6 +670,8 @@ Can. 112n - § l. Dopo aver ricevuto il battesimo, sono ascritti a un'altra Chie
    §2. L'usanza, anche se a lungo protratta, di ricevere i sacramenti secondo il rito di un’altra Chiesa sui iuris, non comporta l'ascrizione alla medesima Chiesa.
 
    §3. Ogni passaggio ad altra Chiesa sui iuris ha valore dal momento della dichiarazione fatta alla presenza dell'Ordinario del luogo della medesima Chiesa o del parroco proprio oppure del sacerdote delegato da uno di essi e di due testimoni, a meno che un rescritto della Sede Apostolica non disponga diversamente; e si annoti nel libro dei battezzati. (n: Indica che il testo corrisponde alla nuova versione) [Redazione originaria degli articoli modificati da Sua Santità Papa Francesco (cfr. Lettera Apostolica in forma di Motu Proprio “De concordia inter Codices” del 31 maggio 2016)]:
+
+(n: Indica che il testo corrisponde alla nuova versione)
 
 --------------------------------------------------
 
@@ -678,11 +685,9 @@ Can. 113
 Can. 114
 §1. Le persone giuridiche sono costituite o dalla stessa disposizione del diritto oppure dalla concessione speciale da parte della competente autorità data per mezzo di un decreto, come insiemi sia di persone sia di cose ordinati ad un fine corrispondente alla missione della Chiesa, che trascende il fine dei singoli.
 
-   §2. Come fini, di cui al
+§2. Come fini, di cui al §1, s'intendono quelli attinenti ad opere di pietà, di apostolato o di carità sia spirituale sia temporale.
 
-   §1, s'intendono quelli attinenti ad opere di pietà, di apostolato o di carità sia spirituale sia temporale.
-
-   §3. L'autorità competente della Chiesa non conferisca la personalità giuridica se non a quegli insiemi di persone o di cose, che perseguono un fine effettivamente utile e che, tutto considerato, sono forniti dei mezzi che si possono prevedere sufficienti a conseguire il fine prestabilito.
+§3. L'autorità competente della Chiesa non conferisca la personalità giuridica se non a quegli insiemi di persone o di cose, che perseguono un fine effettivamente utile e che, tutto considerato, sono forniti dei mezzi che si possono prevedere sufficienti a conseguire il fine prestabilito.
 
 --------------------------------------------------
 
@@ -759,7 +764,14 @@ L'atto posto per ignoranza o per errore, che verta intorno a ciò che ne costitu
 --------------------------------------------------
 
 Can. 127
-§1. Quando dal diritto è stabilito che il Superiore per porre gli atti necessiti del consenso o del parere di un collegio o di un gruppo di persone, il collegio o il gruppo deve essere convocato a norma del
+§1. Quando dal diritto è stabilito che il Superiore per porre gli atti necessiti del consenso o del parere di un collegio o di un gruppo di persone, il collegio o il gruppo deve essere convocato a norma del can. 166, a meno che, quando si tratti di richiedere soltanto il consiglio, non sia stato disposto altrimenti dal diritto particolare o proprio; perché poi l'atto valga si richiede che sia ottenuto il consenso della maggioranza assoluta di quelli che sono presenti o richiesto il parere di tutti.
+
+
+§2. Quando dal diritto è stabilito che il Superiore per porre gli atti necessiti del consenso o del consiglio di alcune persone, come singole:
+1) se si esige il consenso, è invalido l'atto del Superiore che non richiede il consenso di quelle persone o che agisce contro il loro voto o contro il voto di una persona;
+2) se si esige il parere, è invalido l'atto del Superiore che non ascolta le persone medesime; il Superiore, sebbene non sia tenuto da alcun obbligo ad accedere al loro voto, benché concorde, tuttavia, senza una ragione prevalente, da valutarsi a suo giudizio, non si discosti dal voto delle stesse, specialmente se concorde.
+
+
 
 --------------------------------------------------
 
@@ -804,11 +816,9 @@ Can. 133
 --------------------------------------------------
 
 Can. 134
-can. 134
-
-   §1. 1. Il sodale non chierico di un Istituto di vita consacrata o Società di vita apostolica clericale di diritto pontificio è nominato Superiore locale dal Moderatore supremo con il consenso del suo Consiglio. 2. Il sodale non chierico di un Istituto di vita consacrata o di una Società di vita apostolica clericale di diritto pontificio è nominato Superiore maggiore, dopo aver ottenuto licenza scritta della Congregazione per gli Istituti di vita consacrata e le Società di vita apostolica su istanza del Moderatore supremo con il consenso del Consiglio. 3. Il sodale non chierico di un Istituto di vita consacrata o di una Società di vita apostolica clericale di Diritto Pontificio eletto Moderatore supremo o Superiore maggiore, secondo le modalità previste dal diritto proprio, necessita della conferma – mediante licenza scritta – della Congregazione per gli Istituti di vita consacrata e le Società di vita apostolica. 4. Nei casi previsti ai §
-
-  §2-3 la Congregazione per gli Istituti di vita consacrata e le Società di vita apostolica si riserva di valutare il singolo caso e le motivazioni addotte dal Moderatore supremo o dal Capitolo generale. Il Santo Padre ha altresì ordinato che il presente Rescritto sia pubblicato su L’Osservatore Romano, e successivamente nel commentario ufficiale degli Acta Apostolicae Sedis, entrando in vigore in data odierna. Dal Vaticano, 18 maggio 2022 João Braz Card. de Aviz Prefetto José Rodríguez Carballo, O.F.M. Arcivescovo Segretario (n: Indica che il testo corrisponde alla nuova versione o a un nuovo paragrafo) [Redazione originaria dell'articolo modificato da Sua Santità Papa Francesco (cfr. Lettera Apostolica in forma di «Motu Proprio» Competentias quasdam decernere, 11 febbraio 2022)]:
+§1. Col nome di Ordinario nel diritto s'intendono, oltre il Romano Pontefice, i Vescovi diocesani e gli altri che, anche se soltanto interinalmente, sono preposti a una Chiesa particolare o a una comunità ad essa equiparata a norma del can. 368; inoltre coloro che nelle medesime godono di potestà esecutiva ordinaria generale, vale a dire i Vicari generali ed episcopali; e parimenti, per i propri membri, i Superiori maggiori degli istituti religiosi di diritto pontificio clericali e delle società di vita apostolica di diritto pontificio clericali, che possiedono almeno potestà esecutiva ordinaria.
+§2. Col nome di Ordinario del luogo s'intendono tutti quelli recensiti nel §1, eccetto i Superiori degli istituti religiosi e delle società di vita apostolica.
+§3. Quanto viene attribuito nominatamente al Vescovo diocesano nell'àmbito della potestà esecutiva, s'intende competere solamente al Vescovo diocesano e agli altri a lui stesso equiparati nel can. 381, §2, esclusi il Vicario generale ed episcopale, se non per mandato speciale.
 
 --------------------------------------------------
 
@@ -880,9 +890,7 @@ Can. 143
 Can. 144
 §1. Nell'errore comune di fatto o di diritto, e parimenti nel dubbio positivo e probabile sia di diritto sia di fatto, la Chiesa supplisce, tanto nel foro esterno quanto interno, la potestà di governo esecutiva.
 
-   §2. La stessa norma si applica alle facoltà di cui nei cann. 882, 883, 966, e 1111,
-
-   §1.
+   §2. La stessa norma si applica alle facoltà di cui nei cann. 882, 883, 966, e 1111, §1.
 
 --------------------------------------------------
 
@@ -988,7 +996,7 @@ Can. 161
 --------------------------------------------------
 
 Can. 162
-Chi, entro il tempo utile, a norma del
+Chi, entro il tempo utile, a norma del can. 158, §1 e del can. 161, non ha fatto la presentazione, e parimenti colui che ha presentato due volte una persona riconosciuta non idonea, perde per quel caso il diritto di presentazione, e all'autorità cui spetta dare l'istituzione, compete provvedere liberamente all'ufficio vacante, con l'assenso tuttavia dell'Ordinario proprio del candidato alla provvisione.
 
 --------------------------------------------------
 
@@ -1039,7 +1047,11 @@ L'elezione, la cui libertà sia stata in qualche modo effettivamente impedita, �
 --------------------------------------------------
 
 Can. 171
-§1. Sono inabili a dare il voto: 1) chi è incapace di atto umano; 2) colui che manca di voce attiva; 3) chi è legato dalla pena della scomunica sia per sentenza giudiziale sia per decreto con il quale la pena viene inflitta o dichiarata; 4) colui che si è staccato notoriamente dalla comunione della Chiesa
+§1. Sono inabili a dare il voto: 
+1) chi è incapace di atto umano; 
+2) colui che manca di voce attiva; 
+3) chi è legato dalla pena della scomunica sia per sentenza giudiziale sia per decreto con il quale la pena viene inflitta o dichiarata; 
+4) colui che si è staccato notoriamente dalla comunione della Chiesa
 
    §2. Se uno dei predetti viene ammesso, il suo voto è nullo, ma l'elezione vale, a meno che non consti che, tolto quel voto, l'eletto non ha riportato il numero dei voti richiesto.
 
@@ -1078,7 +1090,7 @@ Il compromesso cessa e il diritto di dare il voto ritorna ai compromettenti: 1) 
 --------------------------------------------------
 
 Can. 176
-Se non è disposto altro dal diritto o dagli statuti, si ritenga eletto e venga proclamato dal presidente del collegio o del gruppo colui che ha riportato il numero richiesto dei voti, a norma del
+Se non è disposto altro dal diritto o dagli statuti, si ritenga eletto e venga proclamato dal presidente del collegio o del gruppo colui che ha riportato il numero richiesto dei voti, a norma del can. 119, n. 1.
 
 --------------------------------------------------
 
@@ -1097,7 +1109,7 @@ L'eletto, accettata l'elezione, che non necessiti di conferma, ottiene immediata
 Can. 179
 §1. Se l'elezione necessita di conferma, l'eletto, entro otto giorni dal giorno dell'accettazione dell'elezione, deve richiedere personalmente o per mezzo di un altro la conferma all'autorità competente; altrimenti è privato di ogni diritto, se non avrà provato di essere stato trattenuto da un giusto impedimento nel chiedere la conferma.
 
-   §2. L'autorità competente, se avrà trovato idoneo l'eletto a norma del
+   §2. L'autorità competente, se avrà trovato idoneo l'eletto a norma del can. 149, §1, e l'elezione sia stata compiuta a norma del diritto, non può negare la conferma.
 
 --------------------------------------------------
 
@@ -1129,7 +1141,9 @@ Can. 182
 Can. 183
 §1. Se non fu ammessa la postulazione da parte dell'autorità competente, il diritto di eleggere ritorna al collegio o al gruppo.
 
-   §2. Se invece la postulazione è stata ammessa, ciò sia reso noto al postulato, che deve rispondere a norma del
+   §2. Se invece la postulazione è stata ammessa, ciò sia reso noto al postulato, che deve rispondere a norma del can. 177, §1.
+§3. Chi accetta la postulazione ammessa, ottiene immediatamente l'ufficio con pieno diritto.
+
 
 --------------------------------------------------
 
@@ -1190,14 +1204,14 @@ Can. 191
 --------------------------------------------------
 
 Can. 192
-Una persona viene rimossa dall'ufficio sia per decreto legittimamente emesso dall'autorità competente, osservati i diritti acquisiti eventualmente dal contratto, sia per il diritto stesso a norma del
+Una persona viene rimossa dall'ufficio sia per decreto legittimamente emesso dall'autorità competente, osservati i diritti acquisiti eventualmente dal contratto, sia per il diritto stesso a norma del can. 194.
 
 --------------------------------------------------
 
 Can. 193
 §1. Non si può essere rimossi dall'ufficio che viene conferito a tempo indeterminato, se non per cause gravi e osservato il modo di procedere definito dal diritto.
 
-   §2. Lo stesso vale perché dall'ufficio, che a qualcuno è conferito a tempo determinato, uno possa essere rimosso prima dello scadere di questo tempo, fermo restando il disposto del
+   §2. Lo stesso vale perché dall'ufficio, che a qualcuno è conferito a tempo determinato, uno possa essere rimosso prima dello scadere di questo tempo, fermo restando il disposto del can. 624, §3.
 
 --------------------------------------------------
 
@@ -1226,12 +1240,19 @@ La prescrizione, come modo di acquistare o di perdere un diritto soggettivo e an
 --------------------------------------------------
 
 Can. 198
-Nessuna prescrizione ha valore, se non è fondata sulla buona fede, non solo all'inizio, ma per tutto il decorso del tempo richiesto per la prescrizione, salvo il disposto del
+Nessuna prescrizione ha valore, se non è fondata sulla buona fede, non solo all'inizio, ma per tutto il decorso del tempo richiesto per la prescrizione, salvo il disposto del can. 1362.
 
 --------------------------------------------------
 
 Can. 199
-Non sono sottoposti alla prescrizione: 1) i diritti e gli obblighi che sono di legge divina naturale o positiva; 2) i diritti che si possono ottenere per solo privilegio apostolico; 3) i diritti e gli obblighi che riguardano direttamente la vita spirituale dei fedeli; 4) i confini certi e indubitati delle circoscrizioni ecclesiastiche; 5) le elemosine e gli oneri delle Messe; 6) la provvisione dell'ufficio ecclesiastico che a norma del diritto richiede l'esercizio dell'ordine sacro; 7) il diritto di visita e l'obbligo di obbedienza, con la conseguenza che i fedeli non possano essere visitati da nessuna autorità ecclesiastica e non siano più soggetti ad alcuna autorità.
+Non sono sottoposti alla prescrizione: 
+1) i diritti e gli obblighi che sono di legge divina naturale o positiva; 
+2) i diritti che si possono ottenere per solo privilegio apostolico; 
+3) i diritti e gli obblighi che riguardano direttamente la vita spirituale dei fedeli; 
+4) i confini certi e indubitati delle circoscrizioni ecclesiastiche; 
+5) le elemosine e gli oneri delle Messe; 
+6) la provvisione dell'ufficio ecclesiastico che a norma del diritto richiede l'esercizio dell'ordine sacro; 
+7) il diritto di visita e l'obbligo di obbedienza, con la conseguenza che i fedeli non possano essere visitati da nessuna autorità ecclesiastica e non siano più soggetti ad alcuna autorità.
 
 --------------------------------------------------
 
@@ -1433,7 +1454,9 @@ Can. 230
 Can. 231
 §1. I laici, designati in modo permanente o temporaneo ad un particolare servizio della Chiesa, sono tenuti all'obbligo di acquisire una adeguata formazione, richiesta per adempiere nel modo dovuto il proprio incarico e per esercitarlo consapevolmente, assiduamente e diligentemente.
 
-   §2. Fermo restando il disposto del
+   §2. Fermo restando il disposto del can. 230, §1, essi hanno diritto ad una onesta rimunerazione adeguata alla loro condizione, per poter provvedere decorosamente, anche nel rispetto delle disposizioni del diritto civile, alle proprie necessità e a quelle della famiglia; hanno inoltre il diritto che in loro favore si provveda debitamente alla previdenza, alla sicurezza sociale e all'assistenza sanitaria.
+
+
 
 --------------------------------------------------
 
@@ -1508,11 +1531,10 @@ Can. 241
 --------------------------------------------------
 
 Can. 242
-§1.n In ogni nazione vi sia una Ratio di formazione sacerdotale, emanata dalla Conferenza Episcopale sulla base delle norme fissate dalla suprema autorità della Chiesa e confermata dalla Santa Sede, adattabile alle nuove situazioni con una nuova confermazione della Santa Sede; in essa vengono definiti i principi essenziali e le norme generali della formazione seminaristica, adattate alle necessità pastorali di ogni regione o provincia.
+§1.n 
+In ogni nazione vi sia una Ratio di formazione sacerdotale, emanata dalla Conferenza Episcopale sulla base delle norme fissate dalla suprema autorità della Chiesa e confermata dalla Santa Sede, adattabile alle nuove situazioni con una nuova confermazione della Santa Sede; in essa vengono definiti i principi essenziali e le norme generali della formazione seminaristica, adattate alle necessità pastorali di ogni regione o provincia.
 
-   §2. Le norme della Ratio di cui al
-
-   §1 siano osservate in tutti i seminari, sia diocesani sia interdiocesani.
+   §2. Le norme della Ratio di cui al §1 siano osservate in tutti i seminari, sia diocesani sia interdiocesani.
 
 --------------------------------------------------
 
@@ -1587,9 +1609,7 @@ Can. 253
 
    §2. Si abbia cura che vengano nominati insegnanti singoli e distinti per l'insegnamento di sacra Scrittura, teologia dogmatica, teologia morale, liturgia, filosofia, diritto canonico, storia ecclesiastica e delle altre discipline che devono essere insegnate secondo un proprio metodo.
 
-   §3. L'insegnante che in modo grave venga meno al suo incarico sia rimosso dall'autorità di cui al
-
-   §1.
+   §3. L'insegnante che in modo grave venga meno al suo incarico sia rimosso dall'autorità di cui al §1.
 
 --------------------------------------------------
 
@@ -1644,7 +1664,9 @@ Can. 261
 --------------------------------------------------
 
 Can. 262
-Il seminario sia esente dalla giurisdizione parrocchiale; per tutti coloro che si trovano nel seminario svolge l'ufficio di parroco, ad eccezione della materia matrimoniale e fermo restando il disposto del
+Il seminario sia esente dalla giurisdizione parrocchiale; per tutti coloro che si trovano nel seminario svolge l'ufficio di parroco, ad eccezione della materia matrimoniale e fermo restando il disposto del can. 985, il rettore del seminario o un suo delegato.
+
+
 
 --------------------------------------------------
 
@@ -1654,7 +1676,7 @@ Il Vescovo diocesano oppure, se si tratta di un seminario interdiocesano, i Vesc
 --------------------------------------------------
 
 Can. 264
-§1. Per provvedere alle necessità del seminario, oltre all'offerta di cui al
+§1. Per provvedere alle necessità del seminario, oltre all'offerta di cui al can. 1266, il Vescovo può imporre nella diocesi un tributo.
 
 --------------------------------------------------
 
@@ -1682,7 +1704,7 @@ Can. 267
 Can. 268
 §1. Il chierico che si trasferisce legittimamente dalla propria Chiesa particolare in un'altra, dopo cinque anni viene incardinato in quest'ultima per il diritto stesso, purché abbia manifestato per iscritto tale intenzione sia al Vescovo diocesano della Chiesa ospite, sia al Vescovo diocesano proprio e purché nessuno dei due abbia espresso un parere contrario alla richiesta entro quattro mesi dalla recezione della lettera.
 
-   §2. Con l'ammissione perpetua o definitiva in un istituto di vita consacrata o in una società di vita apostolica, il chierico che, a norma del
+   §2. Con l'ammissione perpetua o definitiva in un istituto di vita consacrata o in una società di vita apostolica, il chierico che, a norma del can. 266, §2, è incardinato in tale istituto o società, viene escardinato dalla propria Chiesa particolare.
 
 --------------------------------------------------
 
@@ -1732,7 +1754,12 @@ Can. 275
 Can. 276
 §1. Nella loro condotta di vita i chierici sono tenuti in modo peculiare a tendere alla santità, in quanto, consacrati a Dio per un nuovo titolo mediante l'ordinazione, sono dispensatori dei misteri di Dio al servizio del Suo popolo.
 
-   §2. Per essere in grado di perseguire tale perfezione: 1) innanzitutto adempiano fedelmente e indefessamente i doveri del ministero pastorale; 2) alimentino la propria vita spirituale alla duplice mensa della sacra Scrittura e dell'Eucaristia; i sacerdoti perciò sono caldamente invitati ad offrire ogni giorno il Sacrificio eucaristico, i diaconi poi a parteciparvi quotidianamente; 3) i sacerdoti e i diaconi aspiranti al presbiterato sono obbligati a recitare ogni giorno la liturgia delle ore secondo i libri liturgici propri e approvati; i diaconi permanenti nella misura definita dalla Conferenza Episcopale; 4) sono ugualmente tenuti a partecipare ai ritiri spirituali, secondo le disposizioni del diritto particolare; 5) sono sollecitati ad attendere regolarmente all'orazione mentale, ad accostarsi frequentemente al sacramento della penitenza, a coltivare una particolare devozione alla Vergine Madre di Dio, e ad usufruire degli altri mezzi di santificazione comuni e particolari.
+   §2. Per essere in grado di perseguire tale perfezione: 
+1) innanzitutto adempiano fedelmente e indefessamente i doveri del ministero pastorale; 
+2) alimentino la propria vita spirituale alla duplice mensa della sacra Scrittura e dell'Eucaristia; i sacerdoti perciò sono caldamente invitati ad offrire ogni giorno il Sacrificio eucaristico, i diaconi poi a parteciparvi quotidianamente; 
+3) i sacerdoti e i diaconi aspiranti al presbiterato sono obbligati a recitare ogni giorno la liturgia delle ore secondo i libri liturgici propri e approvati; i diaconi permanenti nella misura definita dalla Conferenza Episcopale; 
+4) sono ugualmente tenuti a partecipare ai ritiri spirituali, secondo le disposizioni del diritto particolare; 
+5) sono sollecitati ad attendere regolarmente all'orazione mentale, ad accostarsi frequentemente al sacramento della penitenza, a coltivare una particolare devozione alla Vergine Madre di Dio, e ad usufruire degli altri mezzi di santificazione comuni e particolari.
 
 --------------------------------------------------
 
@@ -1769,17 +1796,9 @@ Si raccomanda vivamente ai chierici di praticare una consuetudine di vita comune
 --------------------------------------------------
 
 Can. 281
-can. 281, a meno che non si sia provveduto ai medesimi diversamente.
-
-   §2. Dove non sia ancora stata organizzata convenientemente la previdenza sociale in favore del clero, la Conferenza Episcopale disponga la costituzione di un istituto che provveda sufficientemente alla sicurezza sociale dei chierici.
-
-   §3. Nelle singole diocesi si costituisca, nella misura in cui è necessario, un fondo comune, con il quale i Vescovi possano soddisfare agli obblighi verso le altre persone che servono la Chiesa e andare incontro alle varie necessità della diocesi, e con il quale le diocesi più ricche possano anche aiutare le più povere.
-
-   §4. A seconda delle diverse circostanze dei luoghi, le finalità di cui nei §
-
-  §2 e 3 si possono più convenientemente ottenere con istituti diocesani tra loro federati, o con la cooperazione o l'opportuna consociazione tra varie diocesi, anzi anche organizzata per tutto il territorio della Conferenza Episcopale.
-
-   §5. Questi istituti, se possibile, siano costituiti in modo che ottengano anche il riconoscimento da parte del diritto civile.
+§1. Ai chierici, in quanto si dedicano al ministero ecclesiastico, spetta una rimunerazione adeguata alla loro condizione, tenendo presente sia la natura dell'ufficio, sia circostanze di luogo e di tempo, perché con essa possano provvedere alle necessità della propria vita e alla giusta retribuzione delle persone del cui servizio hanno bisogno.
+§2. Così pure occorre fare in modo che usufruiscano della previdenza sociale con cui sia possibile provvedere convenientemente alle loro necessità in caso di malattia, di invalidità o di vecchiaia.
+§3. I diaconi coniugati, che si dedicano a tempo pieno al ministero ecclesiastico, siano rimunerati in modo che siano in grado di provvedere al proprio sostentamento e a quello della loro famiglia; coloro poi che ricevono una rimunerazione per la professione civile che esercitano o hanno esercitato, provvedano ai loro bisogni e a quelli della propria famiglia con i redditi provenienti da tale rimunerazione.
 
 --------------------------------------------------
 
@@ -1826,11 +1845,7 @@ Can. 287
 --------------------------------------------------
 
 Can. 288
-I diaconi permanenti non sono tenuti alle disposizioni dei cann. 284, 285, §
-
-  §3 e 4, 286, 287,
-
-   §2, a meno che il diritto particolare non stabilisca diversamente.
+I diaconi permanenti non sono tenuti alle disposizioni dei cann. 284, 285, §§3 e 4, 286, 287, §2, a meno che il diritto particolare non stabilisca diversamente.
 
 --------------------------------------------------
 
@@ -1842,17 +1857,20 @@ Can. 289
 --------------------------------------------------
 
 Can. 290
-La sacra ordinazione, una volta validamente ricevuta, non diviene mai nulla. Tuttavia il chierico perde lo stato clericale: 1) per sentenza giudiziaria o decreto amministrativo con cui si dichiara l'invalidità della sacra ordinazione; 2) mediante la pena di dimissione irrogata legittimamente; 3) per rescritto della Sede Apostolica; tale rescritto viene concesso dalla Sede Apostolica ai diaconi soltanto per gravi cause, ai presbiteri per cause gravissime.
+La sacra ordinazione, una volta validamente ricevuta, non diviene mai nulla. Tuttavia il chierico perde lo stato clericale: 
+1) per sentenza giudiziaria o decreto amministrativo con cui si dichiara l'invalidità della sacra ordinazione; 
+2) mediante la pena di dimissione irrogata legittimamente; 
+3) per rescritto della Sede Apostolica; tale rescritto viene concesso dalla Sede Apostolica ai diaconi soltanto per gravi cause, ai presbiteri per cause gravissime.
 
 --------------------------------------------------
 
 Can. 291
-can. 291; gli è proibito di esercitare la potestà di ordine, salvo il disposto del
+Oltre ai casi di cui al can. 290, n. 1, la perdita dello stato clericale non comporta la dispensa dall'obbligo del celibato: questa viene concessa unicamente dal Romano Pontefice.
 
 --------------------------------------------------
 
 Can. 292
-Il chierico che a norma del diritto perde lo stato clericale, ne perde insieme i diritti e non è tenuto ad alcun obbligo di tale stato, fermo restando il disposto del
+Il chierico che a norma del diritto perde lo stato clericale, ne perde insieme i diritti e non è tenuto ad alcun obbligo di tale stato, fermo restando il disposto del can. 291; gli è proibito di esercitare la potestà di ordine, salvo il disposto del can. 976; con ciò egli è privato di tutti gli uffici, di tutti gli incarichi e di qualsiasi potestà delegata.
 
 --------------------------------------------------
 
@@ -1879,7 +1897,7 @@ I laici possono dedicarsi alle opere apostoliche di una prelatura personale medi
 --------------------------------------------------
 
 Can. 297
-Parimenti gli statuti definiscano i rapporti della prelatura personale con gli Ordinari del luogo nelle cui Chiese particolari la prelatura stessa esercita o intende esercitare, previo consenso del Vescovo diocesano, le sue opere pastorali o missionarie. _____________________________________________________________________ Cf: Lettera Apostolica in forma di «Motu Proprio» con la quale vengono modificati i cann. 295-296 relativi alle Prelature personali (8 agosto 2023)
+Parimenti gli statuti definiscano i rapporti della prelatura personale con gli Ordinari del luogo nelle cui Chiese particolari la prelatura stessa esercita o intende esercitare, previo consenso del Vescovo diocesano, le sue opere pastorali o missionarie. 
 
 --------------------------------------------------
 
@@ -1891,12 +1909,14 @@ Can. 298
 --------------------------------------------------
 
 Can. 299
-§1. I fedeli sono liberi di costituire, mediante un accordo privato tra di loro, associazioni per conseguire i fini di cui nel
+§1. I fedeli sono liberi di costituire, mediante un accordo privato tra di loro, associazioni  per conseguire i fini di cui nel can. 298, §1, fermo restando il disposto del can. 301, §1.
+§2. Tali associazioni, anche se lodate o raccomandate dall'autorità ecclesiastica, si chiamano associazioni private.
+§3. Nessuna associazione privata di fedeli è riconosciuta nella Chiesa, se i suoi statuti non sono stati  riveduti dall'autorità competente.
 
 --------------------------------------------------
 
 Can. 300
-Nessuna associazione assuma il nome di "cattolica", se non con il consenso dell'autorità ecclesiastica competente a norma del
+Nessuna associazione assuma il nome di "cattolica", se non con il consenso dell'autorità ecclesiastica competente a norma del can. 312.
 
 --------------------------------------------------
 
@@ -1968,56 +1988,54 @@ I membri di istituti di vita consacrata che presiedono o assistono associazioni 
 --------------------------------------------------
 
 Can. 312
-can. 312,
+§1. L'autorità competente ad erigere associazioni pubbliche è:
+1) la Santa Sede per le associazioni universali e internazionali;
+2) la Conferenza Episcopale nell'ambito del proprio territorio per le associazioni nazionali, quelle cioè che sono destinate, mediante l'erezione stessa, ad esercitare la loro attività in tutta una nazione;
+3) il Vescovo diocesano nell'ambito del suo territorio per le associazioni diocesane, non però l'Amministratore diocesano; tuttavia sono eccettuate le associazioni per le quali il diritto di erezione è riservato ad altri per privilegio apostolico.
 
-   §1 confermare il moderatore dell'associazione pubblica eletto dalla stessa, o istituire colui che è stato presentato, oppure nominarlo secondo il diritto proprio; la medesima autorità ecclesiastica poi nomina il cappellano o l'assistente ecclesiastico, dopo aver sentito, se risulta opportuno, gli officiali maggiori dell'associazione.
 
-   §2. La norma stabilita al
-
-   §1 vale anche per le associazioni erette da membri di istituti religiosi in forza di un privilegio apostolico, al di fuori delle proprie chiese o delle proprie case; nelle associazioni erette da membri di istituti religiosi presso la propria chiesa o presso la propria casa, la nomina o la conferma del moderatore e del cappellano spetta al superiore dell'istituto, a norma degli statuti.
-
-   §3. Nelle associazioni non clericali, i laici possono ricoprire l'incarico di moderatore; il cappellano o l'assistente ecclesiastico non siano assunti a tale compito, a meno che negli statuti non sia disposto diversamente.
-
-   §4. Nelle associazioni pubbliche di fedeli finalizzate direttamente all'esercizio dell'apostolato, non siano moderatori coloro che occupano una carica di direzione nei partiti politici.
+§2. Per erigere validamente nella diocesi un'associazione o una sua sezione, anche se ciò avviene in forza di un privilegio apostolico, si richiede il consenso scritto del Vescovo diocesano; tuttavia il consenso del Vescovo diocesano per l'erezione di una casa di un istituto religioso vale anche per l'erezione, presso la stessa casa o presso la chiesa annessa, di una associazione propria di quell'istituto.
 
 --------------------------------------------------
 
 Can. 313
-Un'associazione pubblica, come pure una confederazione di associazioni pubbliche, per lo stesso decreto con cui viene eretta dall'autorità ecclesiastica competente a norma del
+Un'associazione pubblica, come pure una confederazione di associazioni pubbliche, per lo stesso decreto con cui viene eretta dall'autorità ecclesiastica competente a norma del can. 312, è costituita persona giuridica e riceve, per quanto è richiesto, la missione per i fini che essa si propone di conseguire in nome della Chiesa.
 
 --------------------------------------------------
 
 Can. 314
-Gli statuti di ogni associazione pubblica, la loro revisione e il loro cambiamento necessitano dell'approvazione dell'autorità ecclesiastica cui compete erigere l'associazione a norma del
+Gli statuti di ogni associazione pubblica, la loro revisione e il loro cambiamento necessitano dell'approvazione dell'autorità ecclesiastica cui compete erigere l'associazione a norma del can. 312, §1.
 
 --------------------------------------------------
 
 Can. 315
-Le associazioni pubbliche possono intraprendere spontaneamente quelle iniziative che sono confacenti alla loro indole; tali associazioni sono dirette a norma degli statuti, però sotto la superiore direzione dell'autorità ecclesiastica di cui nel
+Le associazioni pubbliche possono intraprendere spontaneamente quelle iniziative che sono confacenti alla loro indole; tali associazioni sono dirette a norma degli statuti, però sotto la superiore direzione dell'autorità ecclesiastica di cui nel can. 312, §1.
 
 --------------------------------------------------
 
 Can. 316
 §1. Non può essere validamente accolto nelle associazioni pubbliche chi ha pubblicamente abbandonato la fede cattolica, chi è venuto meno alla comunione ecclesiastica e chi è irretito da una scomunica inflitta o dichiarata.
 
-   §2. Coloro che, dopo essere stati legittimamente associati, vengono a trovarsi nel caso di cui al
-
-   §1, premessa un'ammonizione, siano dimessi dall'associazione, osservando gli statuti e salvo il diritto di ricorso all'autorità ecclesiastica di cui al
+   §2. Coloro che, dopo essere stati legittimamente associati, vengono a trovarsi nel caso di cui al §1, premessa un'ammonizione, siano dimessi dall'associazione, osservando gli statuti e salvo il diritto di ricorso all'autorità ecclesiastica di cui al can. 312, §1.
 
 --------------------------------------------------
 
 Can. 317
-§1. Se non si prevede altro negli statuti, spetta all'autorità ecclesiastica di cui al
+§1. Se non si prevede altro negli statuti, spetta all'autorità ecclesiastica di cui al can. 312, §1 confermare il moderatore dell'associazione pubblica eletto dalla stessa, o istituire colui che è stato presentato, oppure nominarlo secondo il diritto proprio; la medesima autorità ecclesiastica poi nomina il cappellano o l'assistente ecclesiastico, dopo aver sentito, se risulta opportuno, gli officiali maggiori dell'associazione.
+
+§2. La norma stabilita al §1 vale anche per le associazioni erette da membri di istituti religiosi in forza di un privilegio apostolico, al di fuori delle proprie chiese o delle proprie case; nelle associazioni erette da membri di istituti religiosi presso la propria chiesa o presso la propria casa, la nomina o la conferma del moderatore e del cappellano spetta al superiore dell'istituto, a norma degli statuti.
 
 --------------------------------------------------
 
 Can. 318
-§1. In circostanze speciali, se lo richiedono gravi motivi, l'autorità ecclesiastica di cui nel
+§1. In circostanze speciali, se lo richiedono gravi motivi, l'autorità ecclesiastica di cui nel can. 312, §1 può designare un commissario che in suo nome diriga temporaneamente l'associazione.
+§2. Il moderatore di un'associazione pubblica può essere rimosso, per giusta causa, da chi lo ha nominato o confermato, tuttavia dopo aver sentito sia il moderatore stesso, sia gli officiali maggiori dell'associazione, a norma degli statuti; il cappellano può essere rimosso, a norma dei cann. 192-195, da chi lo ha nominato.
 
 --------------------------------------------------
 
 Can. 319
-§1. Un'associazione pubblica eretta legittimamente, a meno che non sia disposto in modo diverso,amministra i beni che possiede a norma degli statuti, sotto la superiore direzione dell'autorità ecclesiastica di cui nel
+§1. Un'associazione pubblica eretta legittimamente, a meno che non sia disposto in modo diverso,amministra i beni che possiede a norma degli statuti, sotto la superiore direzione dell'autorità ecclesiastica di cui nel can. 312, §1, alla quale ogni anno deve rendere conto dell'amministrazione.
+§2. Deve inoltre presentare alla medesima autorità un fedele rendiconto dell'impiego delle offerte e delle elemosine raccolte.
 
 --------------------------------------------------
 
@@ -2036,12 +2054,16 @@ Le associazioni private sono dirette e presiedute dai fedeli, secondo le disposi
 --------------------------------------------------
 
 Can. 322
-§1. Un'associazione privata di fedeli può acquistare personalità giuridica per decreto formale dell'autorità ecclesiastica competente di cui nel
+§1. Un'associazione privata di fedeli può acquistare personalità giuridica per decreto formale dell'autorità ecclesiastica competente di cui nel can. 312.
+
+§2. Nessuna associazione privata di fedeli può acquistare personalità giuridica se i suoi statuti non sono stati approvati dall'autorità ecclesiastica di cui nel can. 312, §1; tuttavia l'approvazione degli statuti non cambia la natura privata dell'associazione.
 
 --------------------------------------------------
 
 Can. 323
-§1. Quantunque le associazioni private di fedeli godano di autonomia a norma del
+§1. Quantunque le associazioni private di fedeli godano di autonomia a norma del can. 321, sono soggette alla vigilanza dell'autorità ecclesiastica a norma del can. 305, come pure al governo della medesima autorità.
+§2. Spetta ancora all'autorità ecclesiastica, nel rispetto della autonomia propria delle associazioni private, vigilare e fare in modo che si eviti la dispersione delle forze e ordinare al bene comune l'esercizio del loro apostolato.
+Can. 324 - §1. L'associazione privata di fedeli designa liberamente il moderatore e gli officiali a norma degli statuti.
 
 --------------------------------------------------
 
@@ -2055,7 +2077,7 @@ Can. 324
 Can. 325
 §1. L'associazione privata di fedeli amministra liberamente i beni che possiede, secondo le disposizioni degli statuti, salvo il diritto dell'autorità ecclesiastica competente di vigilare perché i beni siano usati per i fini dell'associazione.
 
-   §2. È pure soggetta all'autorità dell'Ordinario del luogo, a norma del
+   §2. È pure soggetta all'autorità dell'Ordinario del luogo, a norma del can. 1301, per quanto riguarda l'amministrazione e la distribuzione dei beni che le sono stati donati o lasciati per cause pie.
 
 --------------------------------------------------
 
@@ -2067,7 +2089,8 @@ Can. 326
 --------------------------------------------------
 
 Can. 327
-I fedeli laici tengano in grande considerazione le associazioni costituite per i fini spirituali di cui al
+I fedeli laici tengano in grande considerazione le associazioni costituite per i fini spirituali di cui al can. 298, specialmente quelle che si propongono di animare mediante lo spirito cristiano le realtà temporali e in tal modo favoriscono intensamente un rapporto più intimo fra fede e vita.
+
 
 --------------------------------------------------
 
@@ -2082,7 +2105,7 @@ I moderatori delle associazioni di laici facciano in modo che i membri dell'asso
 --------------------------------------------------
 
 Can. 330
-Can. 330), Codice di Diritto Canonico CODICE DI DIRITTO CANONICO LIBRO II IL POPOLO DI DIO PARTE II LA COSTITUZIONE GERARCHICA DELLA CHIESA SEZIONE I LA SUPREMA AUTORITÀ DELLA CHIESA (Cann. 330 – 367) CAPITOLO I (Cann. 330 - 341) IL ROMANO PONTEFICE E IL COLLEGIO DEI VESCOVI
+Come, per volontà del Signore, san Pietro e gli altri Apostoli costituiscono un unico Collegio, per analoga ragione il Romano Pontefice, successore di Pietro, ed i Vescovi, successori degli Apostoli, sono tra di loro congiunti.
 
 --------------------------------------------------
 
@@ -2168,7 +2191,13 @@ Spetta al sinodo dei Vescovi discutere sulle questioni da trattare ed esprimere 
 --------------------------------------------------
 
 Can. 344
-Il sinodo dei Vescovi è direttamente sottoposto all'autorità del Romano Pontefice, al quale spetta propriamente: 1) convocare il sinodo ogni qualvolta lo ritenga opportuno e designare il luogo in cui tenere le assemblee; 2) ratificare l'elezione dei membri che, a norma del diritto peculiare, devono essere eletti, e altresì designare e nominare gli altri membri; 3) stabilire in tempo opportuno, a norma del diritto peculiare, prima della celebrazione del sinodo, gli argomenti delle questioni da trattare; 4) definire l'ordine dei lavori; 5) presiedere il sinodo personalmente o per mezzo di altri; 6) concludere, trasferire, sospendere e sciogliere il sinodo.
+Il sinodo dei Vescovi è direttamente sottoposto all'autorità del Romano Pontefice, al quale spetta propriamente: 
+1) convocare il sinodo ogni qualvolta lo ritenga opportuno e designare il luogo in cui tenere le assemblee; 
+2) ratificare l'elezione dei membri che, a norma del diritto peculiare, devono essere eletti, e altresì designare e nominare gli altri membri; 
+3) stabilire in tempo opportuno, a norma del diritto peculiare, prima della celebrazione del sinodo, gli argomenti delle questioni da trattare; 
+4) definire l'ordine dei lavori; 
+5) presiedere il sinodo personalmente o per mezzo di altri; 
+6) concludere, trasferire, sospendere e sciogliere il sinodo.
 
 --------------------------------------------------
 
@@ -2234,9 +2263,7 @@ Can. 352
 
    §2. Quando l'ufficio di Decano diviene vacante, i Cardinali insigniti del titolo di una Chiesa suburbicaria, e solo essi, con la presidenza del Sottodecano, se è presente, oppure del più anziano tra di loro, eleggano al proprio interno chi debba diventare il Decano del Collegio; comunichino il suo nome al Romano Pontefice, al quale spetta approvare l'eletto.
 
-   §3. Nello stesso modo previsto al
-
-   §2, sotto la presidenza del Decano, viene eletto il Sottodecano; spetta al Romano Pontefice approvare anche l'elezione del Sottodecano.
+   §3. Nello stesso modo previsto al §2, sotto la presidenza del Decano, viene eletto il Sottodecano; spetta al Romano Pontefice approvare anche l'elezione del Sottodecano.
 
    §4. Il Decano e il Sottodecano, se ancora non lo hanno, acquisiscano il domicilio nell'Urbe.
 
@@ -2310,21 +2337,27 @@ Can. 363
 --------------------------------------------------
 
 Can. 364
-Il compito principale del Legato pontificio è quello di rendere sempre più saldi ed efficaci i vincoli di unità che intercorrono tra la Sede Apostolica e le Chiese particolari. Spetta perciò al Legato pontificio nell'ambito della sua circoscrizione: 1) informare la Sede Apostolica sulle condizioni in cui versano le Chiese particolari, nonché su tutto ciò che tocca la vita stessa della Chiesa e il bene delle anime; 2) assistere i Vescovi con l'azione e il consiglio, senza pregiudizio per l'esercizio della loro potestà legittima; 3) favorire relazioni frequenti con la Conferenza Episcopale, fornendo ad essa tutto l'aiuto possibile; 4) per quanto riguarda la nomina dei Vescovi, comunicare o proporre i nomi dei candidati alla Sede Apostolica, nonché istruire il processo informativo sui promovendi, secondo le norme date dalla Sede Apostolica; 5) adoperarsi per promuovere tutto ciò che riguarda la pace, il progresso e la cooperazione tra i popoli; 6) cooperare con i Vescovi per favorire opportuni scambi fra la Chiesa cattolica e le altre Chiese o comunità ecclesiali, anzi anche con le religioni non cristiane; 7) in azione congiunta con i Vescovi, difendere di fronte ai governanti degli Stati tutto ciò che riguarda la missione della Chiesa e della Sede Apostolica; 8) esercitare inoltre le facoltà e adempiere gli altri mandati affidatigli dalla Sede Apostolica.
+Il compito principale del Legato pontificio è quello di rendere sempre più saldi ed efficaci i vincoli di unità che intercorrono tra la Sede Apostolica e le Chiese particolari. Spetta perciò al Legato pontificio nell'ambito della sua circoscrizione: 1) informare la Sede Apostolica sulle condizioni in cui versano le Chiese particolari, nonché su tutto ciò che tocca la vita stessa della Chiesa e il bene delle anime; 
+2) assistere i Vescovi con l'azione e il consiglio, senza pregiudizio per l'esercizio della loro potestà legittima; 
+3) favorire relazioni frequenti con la Conferenza Episcopale, fornendo ad essa tutto l'aiuto possibile; 
+4) per quanto riguarda la nomina dei Vescovi, comunicare o proporre i nomi dei candidati alla Sede Apostolica, nonché istruire il processo informativo sui promovendi, secondo le norme date dalla Sede Apostolica; 
+5) adoperarsi per promuovere tutto ciò che riguarda la pace, il progresso e la cooperazione tra i popoli; 
+6) cooperare con i Vescovi per favorire opportuni scambi fra la Chiesa cattolica e le altre Chiese o comunità ecclesiali, anzi anche con le religioni non cristiane; 
+7) in azione congiunta con i Vescovi, difendere di fronte ai governanti degli Stati tutto ciò che riguarda la missione della Chiesa e della Sede Apostolica; 
+8) esercitare inoltre le facoltà e adempiere gli altri mandati affidatigli dalla Sede Apostolica.
 
 --------------------------------------------------
 
 Can. 365
 §1. È inoltre compito peculiare del Legato pontificio che esercita contemporaneamente una legazione presso gli Stati secondo le norme del diritto internazionale: 1) promuovere e sostenere le relazioni fra la Sede Apostolica e le Autorità dello Stato; 2) affrontare le questioni che riguardano i rapporti fra Chiesa e Stato; trattare in modo particolare la stipulazione e l'attuazione dei concordati e delle altre convenzioni similari.
 
-   §2. Nella trattazione delle questioni di cui al
-
-   §1, a seconda che lo suggeriscano le circostanze, il Legato pontificio non ometta di richiedere il parere e il consiglio dei Vescovi della circoscrizione ecclesiastica e li informi sull'andamento dei lavori.
+   §2. Nella trattazione delle questioni di cui al §1, a seconda che lo suggeriscano le circostanze, il Legato pontificio non ometta di richiedere il parere e il consiglio dei Vescovi della circoscrizione ecclesiastica e li informi sull'andamento dei lavori.
 
 --------------------------------------------------
 
 Can. 366
-Atteso il carattere peculiare dell'ufficio di Legato: 1) la sede della Legazione pontificia è esente dalla potestà di governo dell'Ordinario del luogo, a meno che non si tratti della celebrazione di matrimoni; 2) il Legato pontificio, avvertiti, per quanto è possibile, gli Ordinari del luogo, può compiere celebrazioni liturgiche, anche pontificali, in tutte le chiese della sua legazione.
+Atteso il carattere peculiare dell'ufficio di Legato: 
+1) la sede della Legazione pontificia è esente dalla potestà di governo dell'Ordinario del luogo, a meno che non si tratti della celebrazione di matrimoni; 2) il Legato pontificio, avvertiti, per quanto è possibile, gli Ordinari del luogo, può compiere celebrazioni liturgiche, anche pontificali, in tutte le chiese della sua legazione.
 
 --------------------------------------------------
 
@@ -2334,14 +2367,7 @@ L'ufficio di Legato pontificio non cessa quando diviene vacante la Sede Apostoli
 --------------------------------------------------
 
 Can. 368
-can. 368; inoltre coloro che nelle medesime godono di potestà esecutiva ordinaria generale, vale a dire i Vicari generali ed episcopali; e parimenti, per i propri membri, i Superiori maggiori degli istituti religiosi di diritto pontificio clericali e delle società di vita apostolica di diritto pontificio clericali, che possiedono almeno potestà esecutiva ordinaria.
-
-   §2. Col nome di Ordinario del luogo s'intendono tutti quelli recensiti nel
-
-   §1, eccetto i Superiori degli istituti religiosi e delle società di vita apostolica.
-
-   §3. Quanto viene attribuito nominatamente al Vescovo diocesano nell'àmbito della potestà esecutiva, s'intende competere solamente al Vescovo diocesano e agli altri a lui stesso equiparati nel
-
+Le Chiese particolari, nelle quali e dalle quali sussiste la sola e unica Chiesa cattolica, sono innanzitutto le diocesi, alle quali, se non consta altro, vengono assimilate la prelatura territoriale e l'abbazia territoriale, il vicariato apostolico e la prefettura apostolica e altresì l'amministrazione apostolica eretta stabilmente.
 --------------------------------------------------
 
 Can. 369
@@ -2676,7 +2702,7 @@ Se al Vescovo diocesano viene proibito di esercitare il proprio ufficio a motivo
 --------------------------------------------------
 
 Can. 416
-430), Codice di Diritto Canonico CODICE DI DIRITTO CANONICO LIBRO II IL POPOLO DI DIO PARTE II LA COSTITUZIONE GERARCHICA DELLA CHIESA SEZIONE II LE CHIESE PARTICOLARI E I LORO RAGGRUPPAMENTI (Cann. 368 – 572) TITOLO I LE CHIESE PARTICOLARI E L'AUTORITÀ IN ESSE COSTITUITA (Cann. 368 – 430) CAPITOLO III (Cann. 416 - 430) SEDE IMPEDITA E SEDE VACANTE Articolo 2 La sede vacante
+La sede episcopale diviene vacante con la morte del Vescovo diocesano, con la rinuncia accettata dal Romano Pontefice, con il trasferimento e con la privazione intimata al Vescovo.
 
 --------------------------------------------------
 
@@ -2797,16 +2823,12 @@ All'assemblea dei Vescovi della regione ecclesiastica spetta favorire la coopera
 --------------------------------------------------
 
 Can. 435
-438), Codice di Diritto Canonico CODICE DI DIRITTO CANONICO LIBRO II IL POPOLO DI DIO PARTE II LA COSTITUZIONE GERARCHICA DELLA CHIESA SEZIONE II LE CHIESE PARTICOLARI E I LORO RAGGRUPPAMENTI (Cann. 368 – 572) TITOLO II I RAGGRUPPAMENTI DI CHIESE PARTICOLARI (Cann. 431 – 459) CAPITOLO II (Cann. 435 - 438) I METROPOLITI
+Alla provincia ecclesiastica presiede il Metropolita, che è l'Arcivescovo della diocesi cui è preposto; tale ufficio è congiunto con una sede episcopale, determinata o approvata dal Romano Pontefice.
 
 --------------------------------------------------
 
 Can. 436
-§1. Nelle diocesi suffraganee spetta al Metropolita: 1) vigilare perché la fede e la disciplina ecclesiastica siano accuratamente osservate, e informare il Romano Pontefice su eventuali abusi; 2) fare la visita canonica, per una causa precedentemente approvata dalla Santa Sede, se il suffraganeo l'avesse trascurata; 3) nominare l'Amministratore diocesano, a norma dei cann. 421,
-
-   §2 e 425
-
-   §3.
+§1. Nelle diocesi suffraganee spetta al Metropolita: 1) vigilare perché la fede e la disciplina ecclesiastica siano accuratamente osservate, e informare il Romano Pontefice su eventuali abusi; 2) fare la visita canonica, per una causa precedentemente approvata dalla Santa Sede, se il suffraganeo l'avesse trascurata; 3) nominare l'Amministratore diocesano, a norma dei cann. 421, §2 e 425 §3.
 
    §2. Dove le circostanze lo richiedono, la Sede Apostolica può conferire al Metropolita funzioni e potestà peculiari da determinare nel diritto particolare.
 
@@ -3031,7 +3053,7 @@ Can. 468
 --------------------------------------------------
 
 Can. 469
-474), Codice di Diritto Canonico CODICE DI DIRITTO CANONICO LIBRO II IL POPOLO DI DIO PARTE II LA COSTITUZIONE GERARCHICA DELLA CHIESA SEZIONE II LE CHIESE PARTICOLARI E I LORO RAGGRUPPAMENTI (Cann. 368 – 572) TITOLO III STRUTTURA INTERNA DELLE CHIESE PARTICOLARI (Cann. 460 – 572) CAPITOLO II (Cann. 469 - 474) LA CURIA DIOCESANA
+La curia diocesana consta degli organismi e delle persone che aiutano il Vescovo nel governo di tutta la diocesi, soprattutto nel dirigere l'attività pastorale, nel curare l'amministrazione della diocesi come pure nell'esercitare la potestà giudiziaria.
 
 --------------------------------------------------
 
@@ -3273,7 +3295,7 @@ Can. 502
 --------------------------------------------------
 
 Can. 503
-510), Codice di Diritto Canonico CODICE DI DIRITTO CANONICO LIBRO II IL POPOLO DI DIO PARTE II LA COSTITUZIONE GERARCHICA DELLA CHIESA SEZIONE II LE CHIESE PARTICOLARI E I LORO RAGGRUPPAMENTI (Cann. 368 – 572) TITOLO III STRUTTURA INTERNA DELLE CHIESE PARTICOLARI (Cann. 460 – 572) CAPITOLO IV (Cann. 503 - 510) I CAPITOLI DEI CANONICI
+Il capitolo dei canonici, sia cattedrale sia collegiale, è il collegio di sacerdoti al quale spetta assolvere alle funzioni liturgiche più solenni nella chiesa cattedrale o collegiale; spetta inoltre al capitolo cattedrale adempiere i cómpiti che gli vengono affidati dal diritto o dal Vescovo diocesano.
 
 --------------------------------------------------
 
@@ -3628,7 +3650,7 @@ Can. 555
 --------------------------------------------------
 
 Can. 556
-563), Codice di Diritto Canonico CODICE DI DIRITTO CANONICO LIBRO II IL POPOLO DI DIO PARTE II LA COSTITUZIONE GERARCHICA DELLA CHIESA SEZIONE II LE CHIESE PARTICOLARI E I LORO RAGGRUPPAMENTI (Cann. 368 – 572) TITOLO III STRUTTURA INTERNA DELLE CHIESE PARTICOLARI (Cann. 460 – 572) CAPITOLO VIII (Cann. 556 - 563) I RETTORI DELLE CHIESE E I CAPELLANI Articolo 1 I rettori delle chiese
+In questo contesto con il nome di rettore di una chiesa si intende il sacerdote al quale è demandata la cura di una chiesa che non è né parrocchiale, né capitolare, né annessa alla casa di una comunità religiosa o di una società di vita apostolica che celebri in essa le funzioni religiose.
 
 --------------------------------------------------
 
@@ -3672,7 +3694,7 @@ L'Ordinario del luogo, per giusta causa, può rimuovere dall'ufficio, secondo il
 --------------------------------------------------
 
 Can. 564
-572), Codice di Diritto Canonico CODICE DI DIRITTO CANONICO LIBRO II IL POPOLO DI DIO PARTE II LA COSTITUZIONE GERARCHICA DELLA CHIESA SEZIONE II LE CHIESE PARTICOLARI E I LORO RAGGRUPPAMENTI (Cann. 368 – 572) TITOLO III STRUTTURA INTERNA DELLE CHIESE PARTICOLARI (Cann. 460 – 572) CAPITOLO VIII (Cann. 564 - 572) I RETTORI DELLE CHIESE E I CAPELLANI Articolo 2 I cappellani
+Il cappellano è il sacerdote cui viene affidata in modo stabile la cura pastorale, almeno in parte, di una comunità o di un gruppo particolare di fedeli, e che deve essere esercitata a norma del diritto universale e particolare.
 
 --------------------------------------------------
 
@@ -3759,7 +3781,9 @@ can. 578 e promuovere un adeguato rinnovamento che ad esso si armonizzi; elegger
 --------------------------------------------------
 
 Can. 579
-can. 579 del Codice di Diritto Canonico (1 novembre 2020)[Francese, Inglese, Italiano, Latino, Portoghese, Spagnolo, Tedesco] Lettera Apostolica "De concordia inter Codices" in forma di 'Motu Proprio' con la quale vengono mutate alcune norme del Codice di Diritto Canonico (31 maggio 2016) [Italiano, Latino] Lettera Apostolica in forma di "Motu Proprio" Mitis Iudex Dominus Iesus, sulla riforma del processo canonico per le cause di dichiarazione di nullità del matrimonio nel Codice di Diritto Canonico (15 agosto 2015) [Francese, Inglese, Italiano, Latino, Polacco, Portoghese, Spagnolo, Tedesco, Zh_cn, Zh_tw] Presentazione del "Motu Proprio" Omnium in mentem : Le ragioni di due modifiche (15 dicembre 2009) [Italiano] Lettera Apostolica in forma di "Motu Proprio" Omnium in mentem, con la quale vengono mutate alcune norme del Codice di diritto canonico (26 ottobre 2009) [Francese, Inglese, Italiano, Latino, Portoghese, Spagnolo, Tedesco] Lettera Apostolica data Motu Proprio Ad Tuendam Fidem, con la quale vengono inserite alcune norme nel Codice di Diritto Canonico e nel Codice dei Canoni delle Chiese Orientali (18 maggio 1998)[Francese, Inglese, Italiano, Latino, Portoghese, Spagnolo, Tedesco, Ungherese] Pastor Bonus (28 giugno 1988) : la Pontificia Commissione per l’interpretazione autentica del Codice di Diritto Canonico viene trasformata nel Pontificio Consiglio per i Testi Legislativi a cui spetta l'interpretazione autentica delle leggi della Chiesa.[Inglese, Italiano, Latino, Portoghese, Spagnolo, Tedesco] Recognito Iuris Canonici Codice (2 gennaio 1984) : Lettera Apostolica in forma di Motu Proprio con la quale si istituisce la Pontificia Commissione per l'interpretazione autentica del Codice di diritto canonico.[Italiano, Latino] Presentazione solenne del nuovo Codice di diritto canonico (3 febbraio 1983)[Italiano] Sacrae Disciplinae Leges (25 gennaio 1983) : Costituzione Apostolica con la quale Giovanni Paolo II promulga il nuovo Codice. [Inglese, Italiano, Latino, Portoghese, Spagnolo, Tedesco] All'Assemblea plenaria della Commissione per la Revisione del Codice di Diritto Canonico (29 ottobre 1981) [Italiano, Latino, Portoghese, Spagnolo] Allocuzione con la quale Giovanni XXIIII annuncia l'aggiornamento del Codice di diritto canonico (25 gennaio 1959) [Italiano] Cum Iuris Canonici (15 settembre 1917) : Motu Proprio con il quale Benedetto XV istituisce una Commissione di Cardinali alla quale spetta il diritto di pronunciarsi sull’interpretazione autentica dei canoni del Codice. [Italiano, Latino] Providentissima Mater (Festa di Pentecoste, 27 maggio 1917) : Bolla con la quale Benedetto XV promulga il nuovo Codice di diritto canonico (Codice pio-benedettino) voluto da Pio X. [Italiano] Arduum sane munus (Festa di San Giuseppe, 1904): Motu Proprio con il quale Pio X crea la Commissione Pontificia per la codificazione del diritto canonico (De Ecclesiae legibus in unum redigendis) presieduta da Mons. Pietro Gasparri. [Latino] Durante il Concilio Vaticano I, 33 Vescovi chiedono a Pio IX di procedere alla redazione del Codice di diritto canonico. Nell'istanza rivolta al Pontefice scrivono: «Opus sane arduum; sed quo plus difficultatis habet, eo magis est tanto Pontifice dignum» (Collectio Lacensis, VII, p. 889, V).
+Can. 579 n - Episcopi dioecesani, in suo quisque territorio, instituta vitae consecratae formali decreto valide erigere possunt, praevia licentia Sedis Apostolicae scripto data. 
+
+(Cf. Lettera Apostolica in forma di 'Motu proprio' Authenticum charismatis con la quale si modifica il can. 579 del Codice di Diritto Canonico, 1 novembre 2020 | Francesco)
 
 --------------------------------------------------
 
@@ -3804,9 +3828,10 @@ Can. 587
 --------------------------------------------------
 
 Can. 588
-can. 588
+§1. Lo stato di vita consacrata, per natura sua, non è né clericale né laicale.
+§2. Si dice istituto clericale quello che, secondo il fine o il progetto inteso dal fondatore, oppure in forza di una legittima tradizione, è governato da chierici n(Cf. Rescriptum ex Audientia Ss.mi: Rescritto del Santo Padre Francesco circa la deroga al can. 588 §2 CIC, 18 maggio 2022 – Congregazione per gli Istituti di Vita Consacrata e le Società di Vita Apostolica), assume l'esercizio dell'ordine sacro e come tale viene riconosciuto dall'autorità della Chiesa.
+§3. Si chiama invece istituto laicale quello che, riconosciuto come tale dalla Chiesa stessa, in forza della sua natura, dell'indole e del fine, ha un compito specifico, determinato dal fondatore o in base ad una legittima tradizione, che non comporta l'esercizio dell'ordine sacro.
 
-   §2 CIC, 18 maggio 2022) – Dicastero per gli Istituti di Vita Consacrata e le Società di Vita Apostolica Il Santo Padre Francesco, nell’Udienza dell’11 febbraio u.s. ai sottoscritti Cardinale Prefetto e Arcivescovo Segretario ha concesso alla Congregazione per gli Istituti di vita consacrata e le Società di vita apostolica la facoltà di autorizzare, discrezionalmente e nei singoli casi, ai sodali non chierici il conferimento dell’ufficio di Superiore maggiore in Istituti religiosi clericali di diritto pontificio e nelle Società di vita apostolica clericali di diritto pontificio della Chiesa latina e da essa dipendenti, in deroga al
 
 --------------------------------------------------
 
@@ -4092,7 +4117,9 @@ Can. 633
 --------------------------------------------------
 
 Can. 634
-640), Codice di Diritto Canonico CODICE DI DIRITTO CANONICO LIBRO II IL POPOLO DI DIO PARTE III GLI ISTITUTI DI VITA CONSACRATA E LE SOCIETÀ DI VITA APOSTOLICA SEZIONE I GLI ISTITUTI DI VITA CONSACRATA (Cann. 573 – 730) TITOLO II GLI ISTITUTI RELIGIOSI (Cann. 607 - 709) CAPITOLO II (Cann. 634 - 640) IL GOVERNO DEGLI ISTITUTI Articolo 3 I beni temporali e la loro amministrazione
+§1. Gli istituti, le province e le case, in quanto persone giuridiche per il diritto stesso, hanno la capacità di acquistare, di possedere, di amministrare e alienare beni temporali, a meno che tale capacità non venga esclusa o ridotta dalle costituzioni.
+§2. Evitino tuttavia ogni forma di lusso, di eccessivo guadagno e di accumulazione di beni.
+
 
 --------------------------------------------------
 
@@ -4111,20 +4138,16 @@ Can. 636
 --------------------------------------------------
 
 Can. 637
-I monasteri sui iuris, di cui nel
+I monasteri sui iuris, di cui nel can. 615, devono presentare una volta all'anno il rendiconto amministrativo all'Ordinario del luogo; questi ha inoltre il diritto di prendere visione della conduzione degli affari economici di una casa religiosa di diritto diocesano.
 
 --------------------------------------------------
 
 Can. 638
-can. 638,
+§1. Spetta al diritto proprio determinare, entro l'àmbito del diritto universale, quali sono gli atti che eccedono il limite e le modalità dell'amministrazione ordinaria, e stabilire ciò che è necessario per porre validamente un atto di amministrazione straordinaria.
+§2. Le spese e gli atti giuridici di amministrazione ordinaria sono posti validamente, oltre che dai Superiori, anche dagli officiali a ciò designati dal diritto proprio, nei limiti del loro ufficio.
+§3. Per la validità dell'alienazione, e di qualunque negozio da cui la situazione patrimoniale della persona giuridica potrebbe subire detrimento, si richiede la licenza scritta rilasciata dal Superiore competente con il consenso del suo consiglio. Se però si tratta di negozio che supera la somma fissata dalla Santa Sede per le singole regioni, come pure di donazioni votive fatte alla Chiesa, o di cose preziose per valore artistico o storico, si richiede inoltre la licenza della Santa Sede stessa.
+§4. Per i monasteri sui iuris, di cui nel can. 615, e per gli istituti di diritto diocesano, è necessario anche il consenso scritto dell'Ordinario del luogo.
 
-   §3, quando il valore dei beni che s'intendono alienare, sta tra la somma minima e la somma massima da stabilirsi dalla Conferenza Episcopale per la propria regione, l'autorità competente, nel caso di persone giuridiche non soggette all'autorità del Vescovo diocesano, è determinata dai propri statuti; altrimenti l'autorità competente è lo stesso Vescovo diocesano, con il consenso del consiglio per gli affari economici e del collegio dei consultori nonché degli interessati; il Vescovo diocesano stesso ha anche bisogno del consenso dei medesimi organismi per alienare i beni della diocesi.
-
-   §2. Trattandosi tuttavia di beni il cui valore eccede la somma massima stabilita, oppure di ex-voto donati alla Chiesa o di oggetti preziosi di valore artistico o storico, per la valida alienazione si richiede inoltre la licenza della Santa Sede.
-
-   §3. Se la cosa che s'intende alienare è divisibile, nel chiedere la licenza si devono indicare le parti già alienate in precedenza; altrimenti la licenza è nulla.
-
-   §4. Coloro che sono tenuti a prendere parte alla alienazione dei beni con il parere o il consenso, non diano il parere o il consenso senza essersi prima esattamente informati, sia sulle condizioni finanziarie della persona giuridica i cui beni si vogliono alienare sia sulle alienazioni già fatte.
 
 --------------------------------------------------
 
@@ -4147,7 +4170,7 @@ Gli istituti, tenuto conto dei singoli luoghi, si adoperino per dare una testimo
 --------------------------------------------------
 
 Can. 641
-645), Codice di Diritto Canonico CODICE DI DIRITTO CANONICO LIBRO II IL POPOLO DI DIO PARTE III GLI ISTITUTI DI VITA CONSACRATA E LE SOCIETÀ DI VITA APOSTOLICA SEZIONE I GLI ISTITUTI DI VITA CONSACRATA (Cann. 573 – 730) TITOLO II GLI ISTITUTI RELIGIOSI (Cann. 607 - 709) CAPITOLO III (Cann. 646 - 653) AMMISSIONE DEI CANDIDATI E FORMAZIONE DEI MEMBRI Articolo 2 Il noviziato e la formazione dei novizi
+Il diritto di ammettere i candidati al noviziato spetta ai Superiori maggiori a norma del diritto proprio.
 
 --------------------------------------------------
 
@@ -4246,7 +4269,7 @@ Can. 653
 --------------------------------------------------
 
 Can. 654
-658), Codice di Diritto Canonico CODICE DI DIRITTO CANONICO LIBRO II IL POPOLO DI DIO PARTE III GLI ISTITUTI DI VITA CONSACRATA E LE SOCIETÀ DI VITA APOSTOLICA SEZIONE I GLI ISTITUTI DI VITA CONSACRATA (Cann. 573 – 730) TITOLO II GLI ISTITUTI RELIGIOSI (Cann. 607 - 709) CAPITOLO III (Cann. 654 - 658) AMMISSIONE DEI CANDIDATI E FORMAZIONE DEI MEMBRI Articolo 3 La professione religiosa
+Nella professione religiosa i membri assumono con voto pubblico l'obbligo di osservare i tre consigli evangelici, sono consacrati a Dio mediante il ministero della Chiesa e vengono incorporati nell'istituto con i diritti e i doveri definiti giuridicamente.
 
 --------------------------------------------------
 
@@ -4296,7 +4319,7 @@ Per tutta la vita i religiosi proseguano assiduamente la propria formazione spir
 --------------------------------------------------
 
 Can. 662
-672), Codice di Diritto Canonico CODICE DI DIRITTO CANONICO LIBRO II IL POPOLO DI DIO PARTE III GLI ISTITUTI DI VITA CONSACRATA E LE SOCIETÀ DI VITA APOSTOLICA SEZIONE I GLI ISTITUTI DI VITA CONSACRATA (Cann. 573 – 730) TITOLO II GLI ISTITUTI RELIGIOSI (Cann. 607 - 709) CAPITOLO IV (Cann. 662 - 672) OBBLIGHI E DIRITTI DEGLI ISTITUTI E DEI LORO MEMBRI
+I religiosi abbiano come suprema regola di vita la sequela di Cristo proposta dal Vangelo ed espressa nelle costituzioni del proprio istituto.
 
 --------------------------------------------------
 
@@ -4373,7 +4396,7 @@ I religiosi sono obbligati dalle disposizioni dei cann. 277, 285, 286, 287 e 289
 --------------------------------------------------
 
 Can. 673
-683), Codice di Diritto Canonico CODICE DI DIRITTO CANONICO LIBRO II IL POPOLO DI DIO PARTE III GLI ISTITUTI DI VITA CONSACRATA E LE SOCIETÀ DI VITA APOSTOLICA SEZIONE I GLI ISTITUTI DI VITA CONSACRATA (Cann. 573 – 730) TITOLO II GLI ISTITUTI RELIGIOSI (Cann. 607 - 709) CAPITOLO V (Cann. 673 - 683) L'APOSTOLATO DEGLI ISTITUTI
+L'apostolato di tutti i religiosi consiste in primo luogo nella loro testimonianza di vita consacrata, che essi sono tenuti ad alimentare con l'orazione e con la penitenza.
 
 --------------------------------------------------
 
@@ -5381,7 +5404,15 @@ I membri degli istituti religiosi, per poter pubblicare scritti che trattano que
 --------------------------------------------------
 
 Can. 833
-Can. 833) LIBRO IV. LA FUNZIONE DI SANTIFICARE DELLA CHIESA (Cann. 834 – 1253) PARTE I. I SACRAMENTI TITOLO I. IL BATTESIMO (Cann. 849 – 878) CAPITOLO I. LA CELEBRAZIONE DEL BATTESIMO CAPITOLO II. IL MINISTRO DEL BATTESIMO CAPITOLO III. I BATTEZZANDI CAPITOLO IV. I PADRINI CAPITOLO V. PROVA E ANNOTAZIONE DEL BATTESIMO CONFERITO TITOLO II. IL SACRAMENTO DELLA CONFERMAZIONE (Cann. 879 – 896) CAPITOLO I. LA CELEBRAZIONE DELLA CONFERMAZIONE CAPITOLO II. IL MINISTRO DELLA CONFERMAZIONE CAPITOLO III. I CONFERMANDI CAPITOLO IV. I PADRINI CAPITOLO V. PROVA E ANNOTAZIONE DELL'AVVENUTA CONFERMAZIONE TITOLO III. LA SANTISSIMA EUCARESTIA (Cann. 897 – 958) CAPITOLO I. LA CELEBRAZIONE EUCARISTICA Articolo 1. Il ministro della santissima Eucaristia Articolo 2. Partecipazione alla santissima Eucaristia Articolo 3. Riti e cerimonie della celebrazione eucaristica Articolo 4. Tempo e luogo della celebrazione eucaristica CAPITOLO II. CONSERVAZIONE E VENERAZIONE DELLA SANTISSIMA EUCARISTIA CAPITOLO III. L'OFFERTA DATA PER LA CELEBRAZIONE DELLA MESSA TITOLO IV. IL SACRAMENTO DELLA PENITENZA (Cann. 959 – 997) CAPITOLO I. LA CELEBRAZIONE DEL SACRAMENTO CAPITOLO II. IL MINISTRO DEL SACRAMENTO DELLA PENITENZA CAPITOLO III. IL PENITENTE CAPITOLO IV. LE INDULGENZE TITOLO V. IL SACRAMENTO DELL'UNZIONE DEGLI INFERMI (Cann. 998 – 1007) CAPITOLO I. LA CELEBRAZIONE DEL SACRAMENTO CAPITOLO II. IL MINISTRO DELL'UNZIONE DEGLI INFERMI CAPITOLO III. A CHI VA CONFERITA L'UNZIONE DEGLI INFERMI TITOLO VI. ORDINE (Cann. 1008 – 1054) CAPITOLO I. CELEBRAZIONE E MINISTRO DELL'ORDINAZIONE CAPITOLO II. GLI ORDINANDI Articolo 1. Requisiti negli ordinandi Articolo 2. Requisiti previi all'ordinazione Articolo 3. Irregolarità e altri impedimenti Articolo 4. Documenti richiesti e scrutinio CAPITOLO III. ANNOTAZIONE E CERTIFICATO DELL'AVVENUTA ORDINAZIONE TITOLO VII. IL MATRIMONIO (Cann. 1055 – 1165) CAPITOLO I. LA CURA PASTORALE E GLI ATTI DA PREMETTERE ALLA CELEBRAZIONE DEL MATRIMONIO CAPITOLO II. GLI IMPEDIMENTI DIRIMENTI IN GENERE CAPITOLO III. GLI IMPEDIMENTI DIRIMENTI IN SPECIE CAPITOLO IV. IL CONSENSO MATRIMONIALE CAPITOLO V. LA FORMA DELLA CELEBRAZIONE DEL MATRIMONIO CAPITOLO VI. I MATRIMONI MISTI CAPITOLO VII. LA CELEBRAZIONE SEGRETA DEL MATRIMONIO CAPITOLO VIII. EFFETTI DEL MATRIMONIO CAPITOLO IX. LA SEPARAZIONE DEI CONIUGI Articolo 1. Lo scioglimento del vincolo Articolo 2. La separazione con permanenza del vincolo CAPITOLO X. CONVALIDAZIONE DEL MATRIMONIO Articolo 1. La convalidazione semplice Articolo 2. La sanazione in radice PARTE II. GLI ALTRI ATTI DEL CULTO DIVINO TITOLO I. I SACRAMENTALI (Cann. 1166 – 1172) TITOLO II. LA LITURGIA DELLE ORE (Cann. 1173 – 1175) TITOLO III. LE ESEQUIE ECCLESIASTICHE (Cann. 1176 – 1185) CAPITOLO I. LA CELEBRAZIONE DELLE ESEQUIE CAPITOLO II. A CHI SI DEVONO CONCEDERE O NEGARE LE ESEQUIE ECCLESIASTICHE TITOLO IV. IL CULTO DEI SANTI, DELLE SACRE IMMAGINI E DELLE RELIQUIE (Cann. 1186 – 1190) TITOLO V. IL VOTO E IL GIURAMENTO (Cann. 1191 – 1204) CAPITOLO I. IL VOTO CAPITOLO II. IL GIURAMENTO PARTE III. I LUOGHI E I TEMPI SACRI TITOLO I. I LUOGHI SACRI (Cann. 1205 – 1243) CAPITOLO I. LE CHIESE CAPITOLO II. GLI ORATORI E LE CAPPELLE PRIVATE CAPITOLO III. I SANTUARI CAPITOLO IV. GLI ALTARI CAPITOLO V. I CIMITERI TITOLO II. I TEMPI SACRI (Cann. 1244 – 1253) CAPITOLO I. I GIORNI DI FESTA CAPITOLO II. I GIORNI DI PENITENZA LIBRO V. I BENI TEMPORALI DELLA CHIESA (Cann. 1254 – 1310) TITOLO I. L'ACQUISTO DEI BENI (Cann. 1259 – 1272) TITOLO II. L'AMMINISTRAZIONE DEI BENI (Cann. 1273 – 1289) TITOLO III. I CONTRATTI E SPECIALMENTE L'ALIENAZIONE (Cann. 1290 – 1298) TITOLO IV. PIE VOLONTÀ IN GENERE E PIE FONDAZIONI (Cann. 1299 – 1310) LIBRO VI. LE SANZIONI PENALI NELLA CHIESA (Cann. 1311 – 1399) [Versione PDF del Libro VI (in vigore dall'8 dicembre 2021)] PARTE I. DELITTI E PENE IN GENERE TITOLO I. LA PUNIZIONE DEI DELITTI IN GENERALE (Cann. 1311 – 1312) TITOLO II. LEGGE PENALE E PRECETTO PENALE (Cann. 1313 – 1320) TITOLO III. IL SOGGETTO PASSIVO DELLE SANZIONI PENALI (Cann. 1321 – 1330) TITOLO IV. LE PENE E LE ALTRE PUNIZIONI (Cann. 1331 – 1340) CAPITOLO I. LE CENSURE CAPITOLO II. LE PENE ESPIATORIE CAPITOLO III. RIMEDI PENALI E PENITENZE TITOLO V. L'APPLICAZIONE DELLE PENE (Cann. 1341 – 1353) TITOLO VI. LA REMISSIONE DELLE PENE E LA PRESCRIZIONE DELLE AZIONI (Cann. 1354 – 1363) PARTE II. I SINGOLI DELITTI E LE PENE COSTITUITE PER ESSI TITOLO I. DELITTI CONTRO LA FEDE E L'UNITÀ DELLA CHIESA (Cann. 1364 – 1369) TITOLO II. DELITTI CONTRO LE AUTORITÀ ECCLESIASTICHE E L'ESERCIZIO DEGLI INCARICHI (Cann. 1370 – 1378) TITOLO III. DELITTI CONTRO I SACRAMENTI (Cann. 1379 – 1389) TITOLO IV. DELITTI CONTRO LA BUONA FAMA E IL DELITTO DI FALSO (Cann. 1390 – 1391) TITOLO V. DELITTI CONTRO OBBLIGHI SPECIALI (Cann. 1392 – 1396) TITOLO VI. DELITTI CONTRO LA VITA, LA DIGNITÀ E LA LIBERTÀ DELL'UOMO (Cann. 1397 – 1398) TITOLO VII. NORMA GENERALE (
+All'obbligo di emettere personalmente la professione di fede, secondo la formula approvata dalla Sede Apostolica, sono tenuti:
+1) alla presenza del presidente o di un suo delegato, tutti quelli che partecipano al Concilio Ecumenico o particolare, al sinodo dei Vescovi e al sinodo diocesano con voto sia deliberativo sia consultivo; il presidente poi alla presenza del Concilio o del sinodo;
+2) i promossi alla dignità cardinalizia secondo gli statuti del sacro Collegio;
+3) alla presenza del delegato della Sede Apostolica, tutti i promossi all'episcopato, e parimenti quelli che sono equiparati al Vescovo diocesano;
+4) alla presenza del collegio dei consultori, l'Amministratore diocesano;
+5) alla presenza del Vescovo diocesano o di un suo delegato, i Vicari generali e i Vicari episcopali come pure i Vicario giudiziali;
+6) alla presenza dell'Ordinario del luogo o di un suo delegato, i parroci, il rettore e gli insegnanti di teologia e filosofia nei seminari, all'inizio dell'assunzione dell'incarico; quelli che devono essere promossi all'ordine del diaconato;
+7) alla presenza del Gran Cancelliere o, in sua assenza, alla presenza dell'Ordinario del luogo o dei loro delegati, il rettore dell'università ecclesiastica o cattolica, all'inizio dell'assunzione dell'incarico; alla presenza del rettore, se sacerdote, o alla presenza dell'Ordinario del luogo o dei loro delegati, i docenti che insegnano in qualsiasi università discipline pertinenti alla fede e ai costumi, all'inizio dell'assunzione dell'incarico;
+8) i Superiori negli istituti religiosi e nelle società di vita apostolica clericali, a norma delle costituzioni.
 
 --------------------------------------------------
 
@@ -5557,19 +5588,8 @@ Can. 860
 --------------------------------------------------
 
 Can. 861
-can. 861,
-
-   §2.
-
-   §2. Ogniqualvolta una necessità lo esiga o una vera utilità spirituale lo consigli e purché sia evitato il pericolo di errore o di indifferentismo, è lecito ai fedeli, ai quali sia fisicamente o moralmente impossibile accedere al ministro cattolico, ricevere i sacramenti della penitenza, dell'Eucaristia e dell'unzione degli infermi da ministri non cattolici, nella cui Chiesa sono validi i predetti sacramenti.
-
-   §3. I ministri cattolici amministrano lecitamente i sacramenti della penitenza, dell'Eucaristia e dell'unzione degli infermi ai membri delle Chiese orientali, che non hanno comunione piena con la Chiesa cattolica, qualora li richiedano spontaneamente e siano ben disposti; ciò vale anche per i membri delle altre Chiese, le quali, a giudizio della Sede Apostolica, relativamente ai sacramenti in questione, si trovino nella stessa condizione delle predette Chiese orientali.
-
-   §4. Se vi sia pericolo di morte o qualora, a giudizio del Vescovo diocesano o della Conferenza Episcopale, urgesse altra grave necessità, i ministri cattolici amministrano lecitamente i medesimi sacramenti anche agli altri cristiani che non hanno piena comunione con la Chiesa cattolica, i quali non possano accedere al ministro della propria comunità e li chiedano spontaneamente, purché manifestino, circa questi sacramenti, la fede cattolica e siano ben disposti.
-
-   §5. Per i casi di cui nei §
-
-  §2, 3 e 4, il Vescovo diocesano o la conferenza dei Vescovi non diano norme generali, se non dopo aver consultato l'autorità competente almeno locale della Chiesa o della comunità non cattolica interessata.
+§1. Ministro ordinario del battesimo è il Vescovo, il presbitero e il diacono, fermo restando il disposto del can. 530, n. 1.
+§2. Qualora il ministro ordinario mancasse o fosse impedito, conferisce lecitamente il battesimo il catechista o altra persona incaricata dall'Ordinario del luogo a questo compito e anzi, in caso di necessità, chiunque, mosso da retta intenzione; siano solleciti i pastori d'anime, soprattutto il parroco, affinché i fedeli abbiano ad essere istruiti sul retto modo di battezzare.
 
 --------------------------------------------------
 
@@ -6211,13 +6231,10 @@ Can. 966
 --------------------------------------------------
 
 Can. 967
-can. 967,
+§1. Oltre al Romano Pontefice, anche i Cardinali godono per il diritto stesso della facoltà di ricevere ovunque le confessioni dei fedeli; così i Vescovi, i quali se ne avvalgono lecitamente ovunque, a meno che, in un caso particolare, il Vescovo diocesano non ne abbia fatto divieto.
+§2. Coloro che godono della facoltà di ricevere abitualmente le confessioni sia in forza dell'ufficio, sia in forza della concessione dell'Ordinario del luogo di incardinazione o del luogo nel quale hanno il domicilio, possono esercitare la stessa facoltà ovunque, a meno che l'Ordinario del luogo, in un caso particolare, non abbia fatto divieto, ferme restando le disposizioni del can. 974, §§2 e 3.
+§3. Per il diritto stesso hanno ovunque la medesima facoltà verso i membri e verso quanti vivono giorno e notte nella casa dell'istituto o della società, coloro che in forza dell'ufficio o della concessione del Superiore competente, a norma dei cann. 968, §2 e 969, §2, sono provvisti della facoltà di ricevere le confessioni; essi inoltre se ne avvalgono lecitamente, a meno che qualche Superiore maggiore per quanto riguarda i propri sudditi in un caso particolare non ne abbia fatto divieto.
 
-   §2, il presbitero perde tale facoltà ovunque; revocata la stessa facoltà da un altro Ordinario del luogo, la perde solo nel territorio del revocante.
-
-   §3. Qualunque Ordinario del luogo che avrà revocata a qualche sacerdote la facoltà di ricevere le confessioni, informi l'Ordinario proprio del presbitero in ragione dell'incardinazione oppure, trattandosi di un membro di un istituto religioso, il suo Superiore competente.
-
-   §4. Revocata la facoltà di ricevere le confessioni dal proprio Superiore maggiore, il presbitero perde la facoltà di ricevere le confessioni ovunque verso i membri dell'istituto; revocata invece la stessa facoltà da un altro Superiore competente, la perde verso i soli sudditi della sua circoscrizione.
 
 --------------------------------------------------
 
@@ -6256,15 +6273,11 @@ La facoltà di ricevere abitualmente le confessioni sia concessa per scritto.
 --------------------------------------------------
 
 Can. 974
-can. 974, §
+§1. L'Ordinario del luogo come pure il Superiore competente, non revochino la facoltà concessa per ricevere abitualmente le confessioni, se non per grave causa.
+§2. Revocata la facoltà di ricevere le confessioni da parte dell'Ordinario del luogo che l'ha concessa, di cui al can. 967, §2, il presbitero perde tale facoltà ovunque; revocata la stessa facoltà da un altro Ordinario del luogo, la perde solo nel territorio del revocante.
+§3. Qualunque Ordinario del luogo che avrà revocata a qualche sacerdote la facoltà di ricevere le confessioni, informi l'Ordinario proprio del presbitero in ragione dell'incardinazione oppure, trattandosi di un membro di un istituto religioso, il suo Superiore competente.
+§4. Revocata la facoltà di ricevere le confessioni dal proprio Superiore maggiore, il presbitero perde la facoltà di ricevere le confessioni ovunque verso i membri dell'istituto; revocata invece la stessa facoltà da un altro Superiore competente, la perde verso i soli sudditi della sua circoscrizione.
 
-  §2 e 3.
-
-   §3. Per il diritto stesso hanno ovunque la medesima facoltà verso i membri e verso quanti vivono giorno e notte nella casa dell'istituto o della società, coloro che in forza dell'ufficio o della concessione del Superiore competente, a norma dei cann. 968,
-
-   §2 e 969,
-
-   §2, sono provvisti della facoltà di ricevere le confessioni; essi inoltre se ne avvalgono lecitamente, a meno che qualche Superiore maggiore per quanto riguarda i propri sudditi in un caso particolare non ne abbia fatto divieto.
 
 --------------------------------------------------
 
@@ -6311,13 +6324,8 @@ Colui che confessa d'aver falsamente denunziato un confessore innocente presso l
 --------------------------------------------------
 
 Can. 983
-can. 983,
-
-   § 2, che violano il segreto, siano puniti con giusta pena, non esclusa la scomunica.
-
-   § 3. Fermo restando il disposto dei §
-
-  § 1 e 2, chiunque con qualsiasi mezzo tecnico registra o divulga con malizia, attraverso i mezzi di comunicazione sociale, le cose che vengono dette dal confessore o dal penitente nella confessione sacramentale, vera o simulata, sia punito secondo la gravità del crimine, non esclusa la dimissione dallo stato clericale, se è un chierico.
+§1. Il sigillo sacramentale è inviolabile; pertanto non è assolutamente lecito al confessore tradire anche solo in parte il penitente con parole o in qualunque altro modo e per qualsiasi causa.
+§2. All'obbligo di osservare il segreto sono tenuti anche l'interprete, se c'è, e tutti gli altri ai quali in qualunque modo sia giunta notizia dei peccati dalla confessione.
 
 --------------------------------------------------
 
@@ -6402,14 +6410,14 @@ Per quanto attiene alla concessione e all'uso delle indulgenze, debbono essere i
 --------------------------------------------------
 
 Can. 998
-1007); Codice di Diritto Canonico CODICE DI DIRITTO CANONICO LIBRO IV LA FUNZIONE DI SANTIFICARE DELLA CHIESA PARTE I I SACRAMENTI TITOLO V IL SACRAMENTO DELL'UNZIONE DEGLI INFERMI (Cann. 998 – 1007) CAPITOLO I (Cann. 999-1002) LA CELEBRAZIONE DEL SACRAMENTO
+L'unzione degli infermi, con la quale la Chiesa raccomanda al Signore sofferente e glorificato i fedeli gravemente infermi affinché li sollevi e li salvi, viene conferita ungendoli con olio e pronunciando le parole stabilite nei libri liturgici.
 
 --------------------------------------------------
 
 Can. 999
-can. 999, n. 2, consacrati o benedetti dal Vescovo e per di più di recente; non si serva di quelli vecchi, a meno che non vi sia una necessità.
-
-   §2. Il parroco richieda i sacri oli al Vescovo proprio e li conservi diligentemente in una custodia decorosa.
+Oltre al Vescovo possono benedire l'olio da adoperarsi nell'unzione degli infermi:
+1) coloro che per diritto sono equiparati al Vescovo diocesano;
+2) in caso di necessità, qualunque presbitero, però nella stessa celebrazione del sacramento.
 
 --------------------------------------------------
 
@@ -8497,24 +8505,17 @@ Can. 1340
 --------------------------------------------------
 
 Can. 1341
-can. 1341, sia conveniente; 3) se si debba ricorrere al processo giudiziario, oppure, a meno che la legge non lo vieti, si debba procedere con decreto extragiudiziale.
-
-   §2. L'Ordinario revochi o modifichi il decreto di cui nel
-
-   §1, ogniqualvolta da elementi nuovi gli sembri di dover disporre diversamente.
-
-   §3. Nell'emanare i decreti di cui nei §
-
-  §1 e 2, l'Ordinario, se prudentemente lo ritiene opportuno, ascolti due giudici e altri esperti in diritto.
-
-   §4. Prima di decidere a norma del
-
-   §1, l'Ordinario consideri se non sia conveniente, per evitare giudizi inutili, che egli stesso o l'investigatore, consenzienti le parti, dirima la questione dei danni secondo il giusto e l'onesto.
+L’Ordinario deve avviare la procedura giudiziaria o amministrativa per infliggere o dichiarare le pene quando abbia constatato che né per vie dettate dalla sollecitudine pastorale, soprattutto con la correzione fraterna, né con l’ammonizione né con la riprensione, è possibile ottenere sufficientemente il ristabilimento della giustizia, l’emendamento del reo, la riparazione dello scandalo.
 
 --------------------------------------------------
 
 Can. 1342
-§ 1. Ogniqualvolta giuste cause si oppongono a che si celebri un processo giudiziario, la pena può essere inflitta o dichiarata con decreto extragiudiziale, osservato il
+§ 1. Ogniqualvolta giuste cause si oppongono a che si celebri un processo giudiziario, la pena può essere inflitta o dichiarata con decreto extragiudiziale, osservato il can. 1720, specialmente per quanto riguarda il diritto di difesa e la certezza morale nell’animo di chi emette il decreto a norma del can. 1608. Rimedi penali e penitenze possono essere applicati per decreto in qualunque caso. 
+
+§ 2. Per decreto non si possono infliggere o dichiarare pene perpetue; né quelle pene che la legge o il precetto che le costituisce vieta di applicare per decreto. 
+
+§ 3. Quanto vien detto nella legge o nel precetto a riguardo del giudice per ciò che concerne la pena da infliggere o dichiarare in giudizio, si deve applicare al Superiore, che infligga o dichiari la pena per decreto extragiudiziale, a meno che non consti altrimenti né si tratti di disposizioni attinenti soltanto la procedura.
+
 
 --------------------------------------------------
 
@@ -8766,15 +8767,7 @@ Chi trae illegittimamente profitto dall’elemosina della Messa, sia punito con 
 --------------------------------------------------
 
 Can. 1384
-can. 1384, non potendo dare validamente l’assoluzione sacramentale, tenta d’impartirla oppure ascolta la confessione sacramentale.
-
-   § 2. Nei casi di cui nel
-
-   § 1, a seconda della gravità del delitto, possono essere aggiunte altre pene, non esclusa la scomunica.
-
-   § 3. Sia colui che ha attentato il conferimento del sacro ordine ad una donna, sia la donna che ha attentato la recezione del sacro ordine, incorre nella scomunica latae sententiae riservata alla Sede Apostolica; inoltre il chierico può essere punito con la dimissione dallo stato clericale.
-
-   § 4. Chi deliberatamente amministra un sacramento a colui al quale è proibito riceverlo, sia punito con la sospensione, alla quale possono essere aggiunte altre pene secondo il
+Il sacerdote che agisce contro il disposto del can. 977, incorre nella scomunica latae sententiae riservata alla Sede Apostolica.
 
 --------------------------------------------------
 
@@ -8863,7 +8856,7 @@ Can. 1398
 --------------------------------------------------
 
 Can. 1399
-Can. 1399) LIBRO VII. I PROCESSI (Cann. 1400 – 1752) PARTE I. I GIUDIZI IN GENERALE (Cann. 1400 - 1403) TITOLO I. IL TRIBUNALE COMPETENTE (Cann. 1404 – 1416) TITOLO II. DIFFERENTI GRADI E SPECIE DI TRIBUNALI (Cann. 1417 – 1445) CAPITOLO I. IL TRIBUNALE DI PRIMA ISTANZA Articolo 1. Il giudice Articolo 2. Uditori e relatori Articolo 3. Promotore di giustizia, difensore del vincolo e notaio CAPITOLO II. IL TRIBUNALE DI SECONDA ISTANZA CAPITOLO III. I TRIBUNALI DELLA SEDE APOSTOLICA TITOLO III. LA DISCIPLINA CHE DEVE ESSERE OSSERVATA NEI TRIBUNALI (Cann. 1446 – 1475) CAPITOLO I. L'UFFICIO DEI GIUDICI E DEI MINISTRI DEL TRIBUNALE CAPITOLO II. L'ORDINE DA SEGUIRE NEL GIUDICARE LE CAUSE CAPITOLO III. TERMINI E DILAZIONI CAPITOLO IV. IL LUOGO DEL GIUDIZIO CAPITOLO V. LE PERSONE DA AMMETTERSI IN AULA, MODALITÀ PER LA REDAZIONE E LA CONSERVAZIONE DEGLI ATTI TITOLO IV. LE PARTI NELLA CAUSA (Cann. 1476 – 1490) CAPITOLO I. ATTORE E CONVENUTO CAPITOLO II. PROCURATORI ALLE LITI E AVVOCATI TITOLO V. AZIONI ED ECCEZIONI (Cann. 1491 – 1500) CAPITOLO I. AZIONI ED ECCEZIONI IN GENERE CAPITOLO II. AZIONI ED ECCEZIONI IN SPECIE PARTE II. IL GIUDIZIO CONTENZIOSO SEZIONE I. IL GIUDIZIO CONTENZIOSO ORDINARIO TITOLO I. L'INTRODUZIONE DELLA CAUSA (Cann. 1501 – 1512) CAPITOLO I. IL LIBELLO INTRODUTTORIO DELLA LITE CAPITOLO II. CITAZIONE E INTIMAZIONE DEGLI ATTI GIUDIZIARI TITOLO II. LA CONTESTAZIONE DELLA LITE (Cann. 1513 – 1516) TITOLO III. L'ISTANZA DELLA LITE (Cann. 1517 – 1525) TITOLO IV. LE PROVE (Cann. 1526 – 1586) CAPITOLO I. LE DICHIARAZIONI DELLE PARTI CAPITOLO II. PROVA DOCUMENTALE Articolo 1. Natura e forza probante dei documenti Articolo 2. Produzione dei documenti CAPITOLO III. TESTIMONI E TESTIMONIANZE Articolo 1. Chi può essere testimone Articolo 2. Presentazione ed esclusione dei testimoni Articolo 3. L'esame dei testimoni Articolo 4. Forza probante delle testimonianze CAPITOLO IV. I PERITI CAPITOLO V. ACCESSO ED ISPEZIONE GIUDIZIARIA CAPITOLO VI. LE PRESUNZIONI TITOLO V. LE CAUSE INCIDENTALI (Cann. 1587 – 1597) CAPITOLO I. LE PARTI CHE NON SI PRESENTANO IN GIUDIZIO CAPITOLO II. L'INTERVENTO DI UN TERZO NELLA CAUSA TITOLO VI. LA PUBBLICAZIONE DEGLI ATTI, LA CONCLUSIONE IN CAUSA E LA DISCUSSIONE DELLA CAUSA (Cann. 1598 – 1606) TITOLO VII. I PRONUNCIAMENTI DEL GIUDICE (Cann. 1607 – 1618) TITOLO VIII. IMPUGNAZIONE DELLA SENTENZA (Cann. 1619 – 1640) CAPITOLO I. QUERELA DI NULLITÀ CONTRO LA SENTENZA CAPITOLO II. L'APPELLO TITOLO IX. LA COSA GIUDICATA E LA RESTITUTIO IN INTEGRUM (Cann. 1641 – 1648) CAPITOLO I. LA COSA GIUDICATA CAPITOLO II. LA RESTITUTIO IN INTEGRUM TITOLO X. SPESE GIUDIZIARIE E GRATUITO PATROCINIO (
+Oltre i casi stabiliti da questa o da altre leggi, la violazione esterna di una legge divina o canonica può essere punita con giusta pena, solo quando la speciale gravità della violazione esige una punizione e urge la necessità di prevenire o riparare gli scandali.
 
 --------------------------------------------------
 
@@ -10433,7 +10426,13 @@ Concessa la restitutio in integrum il giudice deve sentenziare sul merito della 
 --------------------------------------------------
 
 Can. 1649
-Can. 1649) TITOLO XI. L'ESECUZIONE DELLA SENTENZA (Cann. 1650 – 1655) SEZIONE II. IL PROCESSO CONTENZIOSO ORALE (Cann. 1656 – 1670) PARTE III. ALCUNI PROCESSI SPECIALI TITOLO I I. PROCESSI MATRIMONIALI (Cann. 1671 – 1707) CAPITOLO I. LE CAUSE PER LA DICHIARAZIONE DI NULLITÀ DEL MATRIMONIO Articolo 1. Il foro competente e i tribunali Articolo 2. Il diritto di impugnare il matrimonio Articolo 3. L'introduzione e l'istruzione della causa Articolo 4. La sentenza, le sue impugnazioni e la sua esecuzione Articolo 5. Il processo matrimoniale più breve davanti al Vescovo Articolo 6. Il processo documentale Articolo 7. Norme generali CAPITOLO II. CAUSE DI SEPARAZIONE DEI CONIUGI CAPITOLO III. PROCESSO PER LA DISPENSA DAL MATRIMONIO RATO E NON CONSUMATO CAPITOLO IV. PROCESSO DI MORTE PRESUNTA DEL CONIUGE TITOLO II. CAUSE PER LA DICHIARAZIONE DI NULLITÀ DELLA SACRA ORDINAZIONE (Cann. 1708 – 1712) TITOLO III. MODI PER EVITARE I GIUDIZI (Cann. 1713 – 1716) PARTE IV. IL PROCESSO PENALE (Cann. 1717 – 1731) CAPITOLO I. L'INDAGINE PREVIA CAPITOLO II. LO SVOLGIMENTO DEL PROCESSO CAPITOLO III. L'AZIONE PER LA RIPARAZIONE DEI DANNI PARTE V. IL MODO DI PROCEDERE NEI RICORSI AMMINISTRATIVI E NELLA RIMOZIONE O NEL TRASFERIMENTO DEI PARROCI SEZIONE I. IL RICORSO CONTRO I DECRETI AMMINISTRATIVI (Cann. 1732 – 1739) SEZIONE II. PROCEDURA PER LA RIMOZIONE E IL TRASFERIMENTO DEI PARROCI Cann. 1740 – 1752) CAPITOLO I. MODO DI PROCEDERE NELLA RIMOZIONE DEI PARROCI CAPITOLO II. MODO DI PROCEDERE NEL TRASFERIMENTO DEI PARROCI _____________________________________________________________________________ Rescriptum ex Audientia Ss.mi: Rescritto del Santo Padre Francesco circa la deroga al
+§1. Il Vescovo, al quale spetta dirigere il tribunale, stabilisca norme per la propria diocesi o regione:
+1) sulla condanna delle parti a pagare o compensare le spese del giudizio;
+2) sugli onorari ai procuratori, avvocati, periti ed interpreti e sul rimborso spese ai testimoni;
+3) sulla concessione del gratuito patrocinio o sulla riduzione delle spese;
+4) sulla riparazione dei danni, dovuta da chi non soltanto perse la causa, ma la fece sconsideratamente;
+5) sul deposito pecuniario o cauzione che deve essere fatto relativamente alle spese da pagare e ai danni da riparare
+§2. Contro l'ordine relativo alle spese, gli onorari e la riparazione dei danni non si dà un appello distinto; la parte può tuttavia ricorrere entro quindici giorni allo stesso giudice, il quale potrà modificare la tassazione.
 
 --------------------------------------------------
 
@@ -11111,12 +11110,13 @@ Se il Vescovo nonostante le ragioni addotte, giudica di non dover recedere dal s
 Can. 1751
 §1. Fatto quanto detto sopra, se ancora il parroco rifiuta e il Vescovo reputa che il trasferimento deve essere fatto, emani il decreto di trasferimento, decidendo che, trascorso il tempo stabilito, la parrocchia sarà vacante.
 
-   §2. Trascorso inutilmente questo tempo, dichiari vacante la    parrocchia.
+   §2. Trascorso inutilmente questo tempo, dichiari vacante la parrocchia.
 
 --------------------------------------------------
 
 Can. 1752
-Nelle cause di trasferimento si applichino le disposizioni del
+Nelle cause di trasferimento si applichino le disposizioni del can. 1747, attenendosi a princípi di equità canonica e avendo presente la salvezza delle anime, che deve sempre essere nella Chiesa legge suprema.
 
 --------------------------------------------------
+
 
