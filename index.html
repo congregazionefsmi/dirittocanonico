@@ -3,283 +3,651 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Codice di Diritto Canonico - CIC Engine</title>
+
+  <!-- Cache Control Headers to prevent caching -->
+  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+  <meta http-equiv="Pragma" content="no-cache">
+  <meta http-equiv="Expires" content="0">
+
+  <title>Codice di Diritto Canonico</title>
   <style>
     :root {
-      --bg-primary: #f8f6f0;
-      --bg-surface: #ffffff;
-      --text-main: #2b2b2b;
-      --text-muted: #666666;
-      --brand-red: #8b0000;
-      --brand-gold: #d4af37;
-      --border-color: #e2ddcf;
-      --header-height: 70px;
-      --controls-height: 70px;
+      --background-color: #eaf6ff;
+      --card-bg: #ffffff;
+      --main-blue: #4AAEE8;
+      --accent-blue: #1683c6;
+      --link-blue: #1677b5;
+      --text-color: #333333;
+      --border-color: #b9def5;
     }
 
     * { box-sizing: border-box; margin: 0; padding: 0; }
 
     body {
-      font-family: 'Georgia', 'Times New Roman', serif;
-      background-color: var(--bg-primary);
-      color: var(--text-main);
-      line-height: 1.6;
+      font-family: Georgia, "Times New Roman", serif;
+      background-color: var(--background-color);
+      color: var(--text-color);
+      line-height: 1.35;
       display: flex;
       flex-direction: column;
       min-height: 100vh;
+      font-size: 17px;
+      padding: 15px;
     }
 
-    header {
-      height: var(--header-height);
-      background-color: var(--brand-red);
-      color: #ffffff;
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      padding: 0 1.5rem;
-      position: sticky;
-      top: 0;
-      z-index: 1000;
-      box-shadow: 0 2px 10px rgba(0,0,0,0.15);
+    /* Top Title Block */
+    .page-title-block {
+      text-align: center;
+      margin-bottom: 15px;
     }
 
-    header h1 { font-size: 1.25rem; font-weight: normal; letter-spacing: 1px; }
-    header h1 span { color: var(--brand-gold); font-weight: bold; }
+    .page-title-block h1 {
+      color: var(--accent-blue);
+      font-size: 1.4rem;
+      font-weight: normal;
+      line-height: 1.2;
+      margin-bottom: 4px;
+    }
 
+    /* Controls Bar */
     .controls-bar {
-      height: var(--controls-height);
-      background: var(--bg-surface);
-      border-bottom: 1px solid var(--border-color);
-      padding: 0 1.5rem;
-      display: grid;
-      grid-template-columns: 2fr 1fr auto auto auto;
-      gap: 1rem;
+      background: var(--card-bg);
+      border: 1px solid var(--border-color);
+      border-radius: 12px;
+      padding: 12px 15px;
+      display: flex;
+      gap: 12px;
       align-items: center;
-      position: sticky;
-      top: var(--header-height);
-      z-index: 900;
+      margin-bottom: 15px;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, .04);
     }
 
-    .input-group {
+    .search-wrapper {
+      flex: 1;
       display: flex;
       align-items: center;
-      background: var(--bg-primary);
+      background: var(--background-color);
       border: 1px solid var(--border-color);
-      border-radius: 6px;
-      padding: 0.4rem 0.8rem;
+      border-radius: 8px;
+      padding: 6px 10px;
+      position: relative;
     }
 
-    .input-group input {
+    .search-wrapper input {
       border: none;
       background: transparent;
       width: 100%;
       font-size: 0.95rem;
       outline: none;
-      font-family: sans-serif;
+      font-family: inherit;
+      color: var(--text-color);
+      padding-right: 25px;
     }
 
-    .btn {
-      background-color: var(--brand-red);
-      color: white;
+    .clear-search-btn {
+      position: absolute;
+      right: 10px;
+      background: none;
       border: none;
-      padding: 0.5rem 1rem;
-      border-radius: 6px;
+      color: #777;
+      font-size: 1rem;
       cursor: pointer;
-      font-family: sans-serif;
-      font-size: 0.9rem;
-      transition: background 0.2s;
+      display: none;
     }
 
-    .btn:hover { background-color: #6b0000; }
+    .clear-search-btn.show {
+      display: block;
+    }
+
+    .book-select {
+      background: var(--background-color);
+      border: 1px solid var(--border-color);
+      border-radius: 8px;
+      padding: 8px 12px;
+      font-family: inherit;
+      font-size: 0.9rem;
+      color: var(--accent-blue);
+      outline: none;
+      cursor: pointer;
+    }
 
     .btn-outline {
       background: transparent;
       border: 1px solid var(--border-color);
-      color: var(--text-main);
-    }
-
-    .app-container {
-      display: flex;
-      flex: 1;
-      position: relative;
-      align-items: flex-start;
-    }
-
-    aside {
-      width: 340px;
-      background: var(--bg-surface);
-      border-right: 1px solid var(--border-color);
-      padding: 1rem;
-      font-family: sans-serif;
-      font-size: 0.85rem;
-      position: sticky;
-      top: calc(var(--header-height) + var(--controls-height));
-      height: calc(100vh - var(--header-height) - var(--controls-height));
-      overflow-y: auto;
-      flex-shrink: 0;
-    }
-
-    aside h3 {
-      font-size: 0.8rem;
-      text-transform: uppercase;
-      letter-spacing: 1px;
-      color: var(--text-muted);
-      margin-bottom: 0.75rem;
-    }
-
-    .book-list { list-style: none; }
-    .book-item {
-      padding: 0.6rem 0.8rem;
-      border-radius: 4px;
+      color: var(--accent-blue);
+      padding: 6px 10px;
+      border-radius: 6px;
       cursor: pointer;
-      margin-bottom: 0.3rem;
-      transition: background 0.2s;
-      border-left: 3px solid transparent;
+      font-family: inherit;
+      font-size: 0.85rem;
     }
-    .book-item:hover { background: var(--bg-primary); }
-    .book-item.active {
-      background: var(--bg-primary);
-      border-left-color: var(--brand-gold);
-      font-weight: bold;
+
+    .btn-outline:hover {
+      background: var(--background-color);
     }
 
     main {
-      flex: 1;
-      padding: 2rem;
-      max-width: 900px;
+      width: 100%;
+      max-width: 850px;
       margin: 0 auto;
-      min-height: calc(100vh - var(--header-height) - var(--controls-height));
+      flex: 1;
     }
 
     .results-info {
-      font-family: sans-serif;
       font-size: 0.85rem;
-      color: var(--text-muted);
-      margin-bottom: 1.5rem;
+      color: #666;
+      margin-bottom: 15px;
       display: flex;
       justify-content: space-between;
       align-items: center;
     }
 
-    .loader-box {
-      text-align: center;
-      padding: 2.5rem;
-      font-family: sans-serif;
-      color: var(--text-muted);
-    }
-
     .canon-card {
-      background: var(--bg-surface);
+      background: var(--card-bg);
       border: 1px solid var(--border-color);
-      border-radius: 8px;
-      padding: 1.5rem;
-      margin-bottom: 1.5rem;
-      box-shadow: 0 1px 3px rgba(0,0,0,0.05);
-      scroll-margin-top: calc(var(--header-height) + var(--controls-height) + 1.5rem);
+      border-radius: 14px;
+      padding: 20px;
+      margin-bottom: 15px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, .06);
     }
 
     .canon-header {
       display: flex;
       justify-content: space-between;
       align-items: flex-start;
-      margin-bottom: 0.75rem;
+      margin-bottom: 10px;
       border-bottom: 1px dashed var(--border-color);
-      padding-bottom: 0.5rem;
+      padding-bottom: 6px;
     }
 
-    .canon-number { font-size: 1.2rem; font-weight: bold; color: var(--brand-red); }
+    .canon-number { font-size: 1.15rem; font-weight: bold; color: var(--accent-blue); }
     .canon-meta {
-      font-family: sans-serif;
       font-size: 0.75rem;
-      color: var(--text-muted);
+      color: #666;
       text-transform: uppercase;
       letter-spacing: 0.5px;
     }
 
-    .canon-body { font-size: 1.05rem; text-align: justify; white-space: pre-line; }
+    .canon-body { font-size: 1.02rem; text-align: justify; white-space: pre-line; margin-bottom: 15px; }
 
     .canon-actions {
-      margin-top: 1rem;
+      margin-top: 10px;
       display: flex;
       gap: 1rem;
       justify-content: flex-end;
-      border-top: 1px solid #f0ece1;
-      padding-top: 0.6rem;
+      border-top: 1px solid var(--background-color);
+      padding-top: 8px;
     }
 
     .canon-actions button {
       background: none;
       border: none;
-      color: var(--text-muted);
+      color: var(--link-blue);
       cursor: pointer;
       font-size: 0.85rem;
-      font-family: sans-serif;
+      font-family: inherit;
     }
 
-    .canon-actions button:hover { color: var(--brand-red); }
+    .canon-actions button:hover { text-decoration: underline; }
 
-    @media (max-width: 768px) {
-      .controls-bar { height: auto; grid-template-columns: 1fr; padding: 1rem; }
-      .app-container { flex-direction: column; }
-      aside { position: relative; top: 0; width: 100%; height: auto; max-height: 220px; }
+    /* Personal Notes Section with Save Button */
+    .canon-notes-section {
+      border-top: 1px solid var(--background-color);
+      padding-top: 12px;
+      margin-top: 10px;
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+    }
+
+    .canon-notes-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .canon-notes-section label {
+      font-size: 0.78rem;
+      color: var(--accent-blue);
+      font-weight: bold;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+
+    .note-status {
+      font-size: 0.75rem;
+      color: #16a34a;
+      font-style: italic;
+      opacity: 0;
+      transition: opacity 0.3s ease;
+    }
+    .note-status.show {
+      opacity: 1;
+    }
+
+    .canon-notes-section textarea {
+      width: 100%;
+      height: 70px;
+      border: 1px solid var(--border-color);
+      border-radius: 6px;
+      padding: 8px;
+      font-family: inherit;
+      font-size: 0.9rem;
+      background: var(--background-color);
+      color: var(--text-color);
+      resize: vertical;
+      outline: none;
+    }
+
+    .save-note-btn {
+      align-self: flex-end;
+      background-color: var(--accent-blue);
+      color: white;
+      border: none;
+      padding: 5px 12px;
+      border-radius: 6px;
+      cursor: pointer;
+      font-family: inherit;
+      font-size: 0.82rem;
+      transition: background 0.2s;
+    }
+    .save-note-btn:hover { background-color: #0c5b8d; }
+
+    .inline-edit-textarea {
+      width: 100%;
+      height: 160px;
+      font-family: inherit;
+      font-size: 1.02rem;
+      padding: 12px;
+      border: 2px solid var(--accent-blue);
+      border-radius: 8px;
+      background: #ffffff;
+      color: var(--text-color);
+      outline: none;
+      resize: vertical;
+      margin-bottom: 15px;
+    }
+
+    .loader-box {
+      text-align: center;
+      padding: 2.5rem;
+      color: #666;
+      background: var(--card-bg);
+      border-radius: 14px;
+      border: 1px solid var(--border-color);
+    }
+
+    @media (max-width: 600px) {
+      .controls-bar { flex-direction: column; align-items: stretch; }
     }
   </style>
 </head>
 <body>
 
-  <header>
-    <h1><span>CIC</span> - Codice di Diritto Canonico</h1>
-    <div style="display: flex; gap: 0.5rem;">
-      <button class="btn btn-outline" style="color: white; border-color: rgba(255,255,255,0.3);" onclick="toggleBookmarks()">★ Segnalibri</button>
-    </div>
-  </header>
-
-  <section class="controls-bar">
-    <div class="input-group">
-      <input type="text" id="searchInput" placeholder="Cerca in tutti i canoni..." onkeyup="handleSearch(event)">
-    </div>
-    <div class="input-group">
-      <input type="number" id="canonJumpInput" placeholder="Vai al Canone (1-1752)..." onkeydown="if(event.key==='Enter') jumpToCanon()">
-    </div>
-    <button class="btn" onclick="executeSearch()">Cerca</button>
-    <button class="btn btn-outline" onclick="resetFilters()">Azzera</button>
-    <label class="btn btn-outline" style="cursor: pointer; display: inline-flex; align-items: center; justify-content: center;">
-      📂 Carica `canon.txt`
-      <input type="file" id="fileInput" accept=".txt" style="display: none;" onchange="loadTextFile(event)">
-    </label>
-  </section>
-
-  <div class="app-container">
-    <aside>
-      <h3>Libri del Codice (1-1752)</h3>
-      <ul class="book-list" id="bookList">
-        <li class="book-item active" onclick="selectBook('LIBRO1', this)">📚 Libro I: Norme Generali (1-203)</li>
-        <li class="book-item" onclick="selectBook('LIBRO2', this)">📚 Libro II: Il Popolo di Dio (204-746)</li>
-        <li class="book-item" onclick="selectBook('LIBRO3', this)">📚 Libro III: Funzione d'Insegnare (747-833)</li>
-        <li class="book-item" onclick="selectBook('LIBRO4', this)">📚 Libro IV: Funzione di Santificare (834-1253)</li>
-        <li class="book-item" onclick="selectBook('LIBRO5', this)">📚 Libro V: Beni Temporali (1254-1310)</li>
-        <li class="book-item" onclick="selectBook('LIBRO6', this)">📚 Libro VI: Sanzioni Penali (1311-1399)</li>
-        <li class="book-item" onclick="selectBook('LIBRO7', this)">📚 Libro VII: I Processi (1400-1752)</li>
-      </ul>
-    </aside>
-
-    <main>
-      <div class="results-info">
-        <span id="resultsCount">Carica il file canon.txt per iniziare.</span>
-        <div>
-          <button class="btn btn-outline" style="padding: 0.2rem 0.5rem;" onclick="changeFontSize(1)">A+</button>
-          <button class="btn btn-outline" style="padding: 0.2rem 0.5rem;" onclick="changeFontSize(-1)">A-</button>
-        </div>
-      </div>
-
-      <div id="canonContainer">
-        <div class="loader-box">
-          <p>Trascina o seleziona il tuo file <strong>canon.txt</strong> usando il pulsante in alto a destra.</p>
-        </div>
-      </div>
-    </main>
+  <!-- Top Title Block -->
+  <div class="page-title-block">
+    <h1>Codice di Diritto Canonico</h1>
   </div>
 
-  <script src="app.js"></script>
+  <!-- Controls Bar -->
+  <section class="controls-bar">
+    <div class="search-wrapper">
+      <input type="text" id="searchInput" placeholder="Cerca tra i canoni..." oninput="handleSearch(event)">
+      <button id="clearSearchBtn" class="clear-search-btn" onclick="resetSearch()">✕</button>
+    </div>
+    <select id="bookDropdown" class="book-select" onchange="selectBookFromDropdown(this.value)">
+      <option value="TUTTI">📚 Tutti i Canoni</option>
+      <option value="LIBRO1">Libro I: Norme Generali</option>
+      <option value="LIBRO2">Libro II: Il Popolo di Dio</option>
+      <option value="LIBRO3">Libro III: Funzione d'Insegnare</option>
+      <option value="LIBRO4">Libro IV: Funzione di Santificare</option>
+      <option value="LIBRO5">Libro V: Beni Temporali</option>
+      <option value="LIBRO6">Libro VI: Sanzioni Penali</option>
+      <option value="LIBRO7">Libro VII: I Processi</option>
+    </select>
+  </section>
+
+  <main>
+    <div class="results-info">
+      <span id="resultsCount">Caricamento in corso...</span>
+      <div style="display: flex; gap: 5px;">
+        <button class="btn-outline" onclick="changeFontSize(1)">A+</button>
+        <button class="btn-outline" onclick="changeFontSize(-1)">A-</button>
+        <!-- Optional Backup File Uploader -->
+        <label class="btn-outline" style="cursor: pointer; display: inline-flex; align-items: center;" title="Carica file canon.txt manuale">
+          📂
+          <input type="file" id="fileInput" accept=".txt" style="display: none;" onchange="loadTextFile(event)">
+        </label>
+      </div>
+    </div>
+
+    <div id="canonContainer">
+      <!-- Dynamic Canon Cards render here -->
+    </div>
+  </main>
+
+  <script>
+    const BOOKS_CONFIG = {
+      LIBRO1: { name: "Libro I - Norme Generali", min: 1, max: 203 },
+      LIBRO2: { name: "Libro II - Il Popolo di Dio", min: 204, max: 746 },
+      LIBRO3: { name: "Libro III - La Funzione d'Insegnare", min: 747, max: 833 },
+      LIBRO4: { name: "Libro IV - La Funzione di Santificare", min: 834, max: 1253 },
+      LIBRO5: { name: "Libro V - I Beni Temporali", min: 1254, max: 1310 },
+      LIBRO6: { name: "Libro VI - Le Sanzioni Penali", min: 1311, max: 1399 },
+      LIBRO7: { name: "Libro VII - I Processi", min: 1400, max: 1752 }
+    };
+
+    let masterDatabase = JSON.parse(localStorage.getItem('cic_txt_database') || 'null');
+    let currentBookKey = 'LIBRO1';
+    let currentFontSize = 1.02;
+    let bookmarks = JSON.parse(localStorage.getItem('cic_bookmarks') || '[]');
+    let showingAll = false;
+    let currentSearchTerm = '';
+    let editingCanonId = null;
+
+    window.addEventListener('DOMContentLoaded', () => {
+      if (masterDatabase && masterDatabase.length > 0) {
+        renderCanons();
+      } else {
+        // Attempt fetch, but instantly fall back to generator if CORS/File protocol blocks it
+        fetch('canon.txt')
+          .then(res => {
+            if (!res.ok) throw new Error("Network response was not ok");
+            return res.text();
+          })
+          .then(text => parseTextFile(text))
+          .catch(() => {
+            console.warn("Impossibile caricare canon.txt via fetch (protocollo locale file://). Generazione database predefinito.");
+            generateDefaultDatabase();
+          });
+      }
+    });
+
+    function generateDefaultDatabase() {
+      let defaultArr = [];
+      let customTexts = JSON.parse(localStorage.getItem('cic_custom_texts') || '{}');
+
+      for (let i = 1; i <= 1752; i++) {
+        let bName = getBookNameForCanon(i);
+        defaultArr.push({
+          id: i,
+          bookName: bName,
+          text: customTexts[i] || `Canone ${i} (${bName}). Testo pronto per la modifica o l'inserimento.`
+        });
+      }
+      masterDatabase = defaultArr;
+      localStorage.setItem('cic_txt_database', JSON.stringify(masterDatabase));
+      renderCanons();
+    }
+
+    function loadTextFile(event) {
+      const file = event.target.files[0];
+      if (!file) return;
+
+      const reader = new FileReader();
+      reader.onload = function(e) {
+        parseTextFile(e.target.result);
+      };
+      reader.readAsText(file);
+    }
+
+    function parseTextFile(rawText) {
+      const container = document.getElementById('canonContainer');
+      container.innerHTML = `<div class="loader-box"><p>Elaborazione e pulizia dei canoni...</p></div>`;
+
+      setTimeout(() => {
+        let sections = rawText.split(/-{3,}/);
+        let canonsMap = new Map();
+
+        sections.forEach(sec => {
+          let trimmed = sec.trim();
+          if (!trimmed) return;
+
+          let matchNum = trimmed.match(/^Can\.\s*(\d+)/i);
+          if (matchNum) {
+            let id = parseInt(matchNum[1], 10);
+            
+            if (id >= 1 && id <= 1752 && !canonsMap.has(id)) {
+              let content = trimmed.replace(/^Can\.\s*\d+\s*/i, '').trim();
+              
+              content = content
+                .replace(/(\s*§\s*\d+)/g, '\n\n  $1')
+                .replace(/(\s*\d+\))\s*/g, '\n\n    $1 ');
+
+              canonsMap.set(id, {
+                id: id,
+                bookName: getBookNameForCanon(id),
+                text: content
+              });
+            }
+          }
+        });
+
+        let finalArray = [];
+        let customTexts = JSON.parse(localStorage.getItem('cic_custom_texts') || '{}');
+
+        for (let num = 1; num <= 1752; num++) {
+          let bName = getBookNameForCanon(num);
+          let existing = canonsMap.get(num);
+
+          if (existing) {
+            existing.text = customTexts[num] || existing.text;
+            finalArray.push(existing);
+          } else {
+            finalArray.push({
+              id: num,
+              bookName: bName,
+              text: customTexts[num] || `Canone ${num} (${bName}).`
+            });
+          }
+        }
+
+        masterDatabase = finalArray;
+        localStorage.setItem('cic_txt_database', JSON.stringify(masterDatabase));
+        renderCanons();
+      }, 100);
+    }
+
+    function getBookNameForCanon(num) {
+      if (num <= 203) return BOOKS_CONFIG.LIBRO1.name;
+      if (num <= 746) return BOOKS_CONFIG.LIBRO2.name;
+      if (num <= 833) return BOOKS_CONFIG.LIBRO3.name;
+      if (num <= 1253) return BOOKS_CONFIG.LIBRO4.name;
+      if (num <= 1310) return BOOKS_CONFIG.LIBRO5.name;
+      if (num <= 1399) return BOOKS_CONFIG.LIBRO6.name;
+      return BOOKS_CONFIG.LIBRO7.name;
+    }
+
+    function selectBookFromDropdown(val) {
+      currentSearchTerm = '';
+      document.getElementById('searchInput').value = '';
+      document.getElementById('clearSearchBtn').classList.remove('show');
+      editingCanonId = null;
+      if (val === 'TUTTI') {
+        showingAll = true;
+      } else {
+        showingAll = false;
+        currentBookKey = val;
+      }
+      renderCanons();
+    }
+
+    function highlightText(text, term) {
+      if (!term) return escapeHTML(text);
+      const escapedTerm = term.replace(/[-\/\\^$*+?.()|[\]{}]/g, '\\$&');
+      const regex = new RegExp(`(${escapedTerm})`, 'gi');
+      return escapeHTML(text).replace(regex, '<mark style="background-color: #fff3cd; color: #856404; padding: 0.1rem 0.2rem; border-radius: 3px; font-weight: bold;">$1</mark>');
+    }
+
+    function escapeHTML(str) {
+      return str.replace(/[&<>'"]/g, 
+        tag => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', "'": '&#39;', '"': '&quot;' }[tag] || tag)
+      );
+    }
+
+    function renderCanons() {
+      if (!masterDatabase) return;
+      const container = document.getElementById('canonContainer');
+      container.innerHTML = '';
+      
+      const isSearching = currentSearchTerm.length > 0;
+
+      let filtered = masterDatabase.filter(canon => {
+        const inBook = isSearching || showingAll || (canon.id >= BOOKS_CONFIG[currentBookKey].min && canon.id <= BOOKS_CONFIG[currentBookKey].max);
+        
+        const matchesSearch = !isSearching || 
+          canon.id.toString() === currentSearchTerm ||
+          canon.text.toLowerCase().includes(currentSearchTerm);
+          
+        return inBook && matchesSearch;
+      });
+
+      if (isSearching) {
+        document.getElementById('resultsCount').innerText = `Risultati per "${currentSearchTerm}": ${filtered.length} canoni`;
+      } else if (showingAll) {
+        document.getElementById('resultsCount').innerText = `Tutti i Canoni (${filtered.length} totali)`;
+      } else {
+        document.getElementById('resultsCount').innerText = `${BOOKS_CONFIG[currentBookKey].name} (${filtered.length} canoni)`;
+      }
+
+      if (filtered.length === 0) {
+        container.innerHTML = `<div class="loader-box">Nessun canone trovato.</div>`;
+        return;
+      }
+
+      filtered.forEach(canon => {
+        let card = document.createElement('div');
+        card.className = 'canon-card';
+        card.id = `canon-${canon.id}`;
+
+        let isBookmarked = bookmarks.includes(canon.id);
+        let isEditing = (editingCanonId === canon.id);
+        let savedNote = localStorage.getItem('canon_note_' + canon.id) || '';
+
+        let bodyContent = isEditing
+          ? `<textarea id="edit-textarea-${canon.id}" class="inline-edit-textarea">${escapeHTML(canon.text)}</textarea>`
+          : `<div class="canon-body" style="font-size: ${currentFontSize}rem;">${highlightText(canon.text, isSearching && isNaN(currentSearchTerm) ? currentSearchTerm : '')}</div>`;
+
+        let actionButtons = isEditing
+          ? `<button onclick="saveEditedCanon(${canon.id})" style="font-weight:bold; color:var(--accent-blue);">💾 Salva</button>
+             <button onclick="cancelEdit()">❌ Annulla</button>`
+          : `<button onclick="editCanon(${canon.id})">✏️ Modifica</button>
+             <button onclick="copyCanon(${canon.id})">📋 Copia</button>`;
+
+        card.innerHTML = `
+          <div class="canon-header">
+            <div>
+              <span class="canon-number">Can. ${canon.id}</span>
+              <div class="canon-meta">${canon.bookName}</div>
+            </div>
+            <button onclick="toggleBookmark(${canon.id})" style="background:none; border:none; font-size:1.2rem; cursor:pointer; color: ${isBookmarked ? 'var(--accent-blue)' : '#ccc'}">
+              ${isBookmarked ? '★' : '☆'}
+            </button>
+          </div>
+          ${bodyContent}
+          <div class="canon-notes-section">
+            <div class="canon-notes-header">
+              <label>📝 Note Personali / Commento</label>
+              <span id="note-status-${canon.id}" class="note-status">Salvato! ✓</span>
+            </div>
+            <textarea id="note-textarea-${canon.id}" placeholder="Scrivi le tue note su questo canone...">${escapeHTML(savedNote)}</textarea>
+            <button class="save-note-btn" onclick="saveNote(${canon.id})">💾 Salva Nota</button>
+          </div>
+          <div class="canon-actions">
+            ${actionButtons}
+          </div>
+        `;
+        container.appendChild(card);
+      });
+    }
+
+    function editCanon(id) {
+      editingCanonId = id;
+      renderCanons();
+    }
+
+    function cancelEdit() {
+      editingCanonId = null;
+      renderCanons();
+    }
+
+    function saveEditedCanon(id) {
+      let textarea = document.getElementById(`edit-textarea-${id}`);
+      if (!textarea) return;
+
+      let newText = textarea.value.trim();
+      if (newText !== '') {
+        let canonObj = masterDatabase.find(c => c.id === id);
+        if (canonObj) {
+          canonObj.text = newText;
+          let customTexts = JSON.parse(localStorage.getItem('cic_custom_texts') || '{}');
+          customTexts[id] = newText;
+          localStorage.setItem('cic_custom_texts', JSON.stringify(customTexts));
+          localStorage.setItem('cic_txt_database', JSON.stringify(masterDatabase));
+        }
+      }
+      editingCanonId = null;
+      renderCanons();
+    }
+
+    function saveNote(id) {
+      let textarea = document.getElementById(`note-textarea-${id}`);
+      let statusEl = document.getElementById(`note-status-${id}`);
+      if (!textarea || !statusEl) return;
+
+      localStorage.setItem('canon_note_' + id, textarea.value);
+      
+      statusEl.classList.add('show');
+      setTimeout(() => {
+        statusEl.classList.remove('show');
+      }, 2000);
+    }
+
+    function handleSearch(e) {
+      const val = e.target.value.trim();
+      currentSearchTerm = val.toLowerCase();
+      
+      const clearBtn = document.getElementById('clearSearchBtn');
+      if (val.length > 0) {
+        clearBtn.classList.add('show');
+      } else {
+        clearBtn.classList.remove('show');
+      }
+      renderCanons();
+    }
+
+    function resetSearch() {
+      const searchInput = document.getElementById('searchInput');
+      searchInput.value = '';
+      currentSearchTerm = '';
+      document.getElementById('clearSearchBtn').classList.remove('show');
+      renderCanons();
+    }
+
+    function changeFontSize(delta) {
+      currentFontSize += delta * 0.1;
+      if (currentFontSize < 0.8) currentFontSize = 0.8;
+      if (currentFontSize > 1.5) currentFontSize = 1.5;
+      document.querySelectorAll('.canon-body').forEach(el => el.style.fontSize = `${currentFontSize}rem`);
+    }
+
+    function toggleBookmark(canonId) {
+      if (bookmarks.includes(canonId)) {
+        bookmarks = bookmarks.filter(id => id !== canonId);
+      } else {
+        bookmarks.push(canonId);
+      }
+      localStorage.setItem('cic_bookmarks', JSON.stringify(bookmarks));
+      renderCanons();
+    }
+
+    function copyCanon(id) {
+      let canonObj = masterDatabase.find(c => c.id === id);
+      if (canonObj) {
+        navigator.clipboard.writeText(`Can. ${canonObj.id}\n${canonObj.text}`);
+        alert(`Canone ${id} copiato negli appunti!`);
+      }
+    }
+  </script>
 </body>
 </html>
